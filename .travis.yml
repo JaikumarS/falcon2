@@ -1,8 +1,8 @@
 sudo: required
 language: csharp
-solution: Falcon1.sln
+solution: AddressValidation.sln
 script:
-  - xbuild Falcon1.sln
+  - xbuild AddressValidation.sln
 deploy:  
   provider: azure_web_apps
   username: jayakumar.shanmugam@verizon.com
