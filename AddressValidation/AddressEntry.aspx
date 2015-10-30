@@ -60,8 +60,7 @@
 
          <input type="text" id="txtaddress" style="width:650px" />
         <input type="text" id="zipcode" style="width:150px" />
-       <br />
-          <input type="text" id="Text1" style="width:250px" />
+      
 
 
     </form>
