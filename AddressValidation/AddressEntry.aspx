@@ -34,7 +34,7 @@
                 var place = autocomplete.getPlace();
                 // alert(place.geometry.location.A);
 
-                document.getElementById('Text1').value = place.geometry.location;
+              //  document.getElementById('Text1').value = place.geometry.location;
                 //alert(place.geometry.location);
                 
                 for (var j = 0; j < place.address_components.length; j++) {
