@@ -51,7 +51,7 @@
 
     </script>
 
-
+    <title>Smart Address Validation</title>
 
 </head >
 
