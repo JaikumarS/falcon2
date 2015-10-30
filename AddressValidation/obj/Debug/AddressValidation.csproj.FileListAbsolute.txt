@@ -1,0 +1,5 @@
+C:\Falcon\AddressValidation\AddressValidation\bin\AddressValidation.dll
+C:\Falcon\AddressValidation\AddressValidation\bin\AddressValidation.pdb
+C:\Falcon\AddressValidation\AddressValidation\obj\Debug\AddressValidation.csprojResolveAssemblyReference.cache
+C:\Falcon\AddressValidation\AddressValidation\obj\Debug\AddressValidation.dll
+C:\Falcon\AddressValidation\AddressValidation\obj\Debug\AddressValidation.pdb
