@@ -1,0 +1,10 @@
+sudo: required
+language: csharp
+solution: Falcon1.sln
+script:
+  - xbuild Falcon1.sln
+deploy:  
+  provider: azure_web_apps
+  username: jayakumar.shanmugam@verizon.com
+  password: Jaishalu1!
+  site: http://falcon21.azurewebsites.net
