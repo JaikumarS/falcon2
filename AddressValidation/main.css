@@ -1,0 +1,1221 @@
+/*Generic CSS*/
+body{font:14px Arial,Helvetica,sans-serif;line-height:1.4;padding:0;background-color:#F7F7F7 !important;width:100%;}
+#ghfbody{background:none !important;}
+.navbar,.navbar-inverse .navbar-inner{background-color:#fff;}.navbar{border-bottom:1px solid #d2d3d4;position:relative}
+/*.sticky .navbar{left:0;position:fixed;z-index:1001;top:0;width:100%;box-shadow: 0 2px 4px rgba(0, 0, 0, .1);}*/
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{box-shadow:none;}
+.navbar .brand {margin:40px 0px 32px 0px;padding:0;}.navbar .brand img{width:156px;}
+.sticky .navbar .brand img{width:156px;}
+.container{width:980px;position:relative;}
+#pageHeader .container { padding-top:0; }
+.container.LQ {width:auto; padding-top:20px;} 
+.container.LQ  .sectionpadding.LQ {padding-top:20px;}/* Change 07/30*/
+.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:980px;}
+.headerIcons{top:70px;position:absolute;right:0;}
+#Signout a,#ctc a,#scart a,#faq a,#fcart a,.hicon a{cursor:pointer;display:block;padding:3px 15px 1px 15px;/*border-left:1px solid #d2d3d4;*/}#ctc a img,#scart a img,#faq a img,#fcart a img,#Signout a img,.hicon a img{height:34px;border:none;}#ctc a img{width:139px;}#faq a img{width:157px;}#scart a img{/*width:122px;*/}#fcart a img{width:110px;}#Signout a img{width:107px;}#fcart a{position:relative;}#fcart a span{top:12px;left:60px;font:normal 20px/1.5 VerizonApexBold;color:#5a595d;text-decoration:none;display:block;color:#ED1C24;position:absolute;}
+#espanolLink a{padding:0 10px 0 0;display:block;margin-top:10px;}#fcart{position:relative;}
+/*changes for cart down arrow abcdefgh*/
+#divCart { background-image:url(../Images/down_carrot.png); background-repeat:no-repeat; background-position:right center; margin-right:10px; }
+#savingBtn { background-image:url(../Images/down_carrot_white.png); background-repeat:no-repeat; background-position:95% center;  padding-right:30px;  }
+/*changes for cart down arrow abcdefgh*/
+.sticky .navbar .headerIcons{top:48px;}
+h3{font:normal 24px/1.2 VerizonApexMediumItalic,Arial,Helvetica;color:#444;margin:0 0 15px 0;}
+h3 small{font:normal 14px Arial,Helvetica;color:#777;}
+h4{font:bold 1.25em/1.5em Arial,Helvetica;color:#444;margin:0 0 15px 0;}
+label,.poTxtLbl{margin-bottom:5px;font:normal 14px/1.3 Arial,Helvetica;color:#5A595D;}label span.t_red{padding:3px 3px 0 0;float:left;}p{margin:0 0 15px;}
+select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{margin-bottom:0;height:auto;font-size:14px;line-height:1.2;}::-webkit-input-placeholder,:-moz-placeholder,::-moz-placeholder,:-ms-input-placeholder{font-size:14px;}.bootstrap-select .btn:focus,.bootstrap-select .btn:active{outline:none !important;}
+.sectionPadding{padding:0 20px 20px;border-bottom:1px solid #ccc}
+address,#spPOAddress,#spPObpInfodtvcovAddress{display:block;padding:12px 15px;text-transform:uppercase;background:#D2D3D4;font:normal 16px VerizonApexBold;color:#333;margin-top:5px;}
+.t_shadow{border-top:1px solid #ccc;}
+.totalDiv{background:#333;color:#fff;padding:15px 20px;margin-top:10px;}
+.tooltip {font-size:12px;}
+.hrline{font-size:1px;height:1px;padding:0;margin:0;line-height:0;background:#ccc;clear:both;}
+.ORSeperator, .ORSeperatorHV{position:relative;} .ORSeperatorHV{ margin:10px 0px; }
+.ORSeperator .ORlineL, .ORSeperatorHV .ORlineL,.ORSeperator .ORlineR, .ORSeperatorHV .ORlineR{height:1px;font-size:1px;line-height:1px;background:#666;width:45%;top:20px;position:absolute;}
+.ORSeperator .ORlineL, .ORSeperatorHV .ORlineL{left:0;}
+.ORSeperator .ORlineR, .ORSeperatorHV .ORlineR{right:0;}
+.ORSeperator .OR, .ORSeperatorHV .OR{padding:5px;margin:0 auto;width:40px;font-family:VerizonApexBold,Arial,Helvetica;text-align:center;font-size:20px;color:#666;}
+.ORSeperatorHV { height:73px; }
+.ORSeperatorHV .ORlineL,.ORSeperatorHV .ORlineR{height:30%;font-size:1px;line-height:1px;background:#666;width:1px;top:auto;position:absolute;}
+ .ORSeperatorHV .ORlineL{left:48%;}
+ .ORSeperatorHV .ORlineR{left:48%; bottom:0px;}
+ .ORSeperatorHV .OR{padding:5px;margin:0 auto;width:40px;font-family:VerizonApexBold,Arial,Helvetica;text-align:center;font-size:20px;color:#666; position:absolute; top:25%; left:50%; margin-left:-26px;}
+.overlay #loopQual .sectionPadding.LQ{padding:20px 25px !important;}.container.overlay{width:100% !important;}
+.accordianLink{background:url(../Images/global_sprite_web_new.png) no-repeat 0px -342px;font:normal 1em/1.2 Arial,Helvetica;padding:8px 0 5px 25px;display:block}
+.accordianLink.collapsed{background-position:0px -392px;}.accordianLink:hover{text-decoration:none;}
+.gridTable{padding:0;margin:0;border:1px solid #ccc;border-collapse:collapse;width:100%;background:#fff;}
+.gridTable td,.gridTable th{border:1px solid #ccc;border-collapse:collapse;text-align:left;padding:10px;}.gridTable th{background:#ddd;}
+#SI_banner{width:288px;height:68px;float:right;}#SI_banner img{width:100%;}
+#WFG_banner{width:212px;height:68px;float:right;background:#ECEDEE;position:relative;margin:0 0 10px 20px;}#WFG_banner img{padding:7px 5px 7px 4px;width:96%;}#WFG_banner .lTxt{position:absolute;color:#2E67B2;font-size:13px;top:46px;left:90px;}
+.footerDisclaimer{font-size:12px; padding: 0 10px;}
+.footerDisclaimer p{margin-bottom:10px !important}
+#reviewOrder .totalDiv{margin:10px 0;}
+#reviewOrder .totalDiv .f18{font-size:14px !important;}
+#futureNotify p{font-size:16px;}
+.tipText{font-size:12px;color:#666;}
+#divPromotion font,#divPromotion span,#divPromotion span div,#divPromotion div,#divPromotion,#divPromotion div font div{font-size:12px !important;line-height:1.5 !important;color:#333 !important}#divPromotion font a,#divPromotion span a,#divPromotion span div a,#divPromotion div a,#divPromotion a,#divPromotion div font div a,#divPromotion font a font,#divPromotion a font{color:#2E67B2 !important;}
+.twoNum{width:22px;margin-right:5px;}.threeNum{width:26px;margin-right:5px;}.fourNum{width:37px;}
+.span6.primary_no { width:42%; } .span6.alt_no { width:54%;}
+.span6.alt_no .fourNum.extn { margin-left:2px;    }
+.snug {    font: 14px VerizonApexBookItalic,Arial,Helvetica;    margin-bottom: 5px;    color: #595A5D; line-height: 14px;}
+.txt_offer{ color: #4A9A4D;font-family: VerizonApexMediumItalic; }
+/*All CTA's  */
+li.active a.icon-question-sign { background-position:-28px -299px; }/*NJ*/
+.icon-question-sign,#trSecCode .poTable .poSecCode,#dvPOcovdpabpInfomdpaNewClass2 .poSecCode{background:transparent url(../Images/global_sprite_web_new.png) no-repeat;width:20px;line-height:20px;margin:-2px 0 0 3px;height:20px;cursor:pointer;display:inline-block;}
+a.icon-question-sign { position:absolute; background-position:0 -299px; }
+
+.btnChangelink{width:330px;height:45px;font:normal 18px/40px VerizonApexMediumItalic;color:#fff;display:block;margin:5px auto 10px auto;background:#EC1E24;text-align:center;vertical-align:middle;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}.btnChangelink:hover,.btnChangelink:active,.btnChangelink:focus{color:#fff;}
+.btnChangelink span{background: url(../Images/change_icon.png) no-repeat left -150px;display:inline-block;width:35px;height:28px;margin-top:-4px;vertical-align:middle;}
+.smRed,.sdRed,.ovRed,.smGrey,.sdGrey,.ovGrey,.smSilv,.sdSilv,.poBtn{cursor:pointer;display:block;float:left;font:normal 16px VerizonApexBook !important;margin:0;text-decoration:none !important;box-shadow:none;text-shadow:none;text-indent:0;width:auto !important;border-radius:3px;padding:0 40px;text-align:center;white-space:nowrap;vertical-align:middle;border:none;}
+.smRed,.smGrey,.smSilv{height:35px;line-height:35px !important;min-width:80px;padding:0 30px;}.sdRed,.sdGrey,.sdSilv,.poBtn{height:45px;line-height:45px !important;min-width:160px;}.ovRed,.ovGrey{min-width:160px;height:auto;line-height:1.3 !important;}
+.smRed,.sdRed,.ovRed,.poBtn{background:#ED1C24;color:#fff !important;}
+.sdRed:hover,.ovRed:hover,.poBtn:hover,.sdRed:active,.ovRed:active,.poBtn:active,.smRed:active,.smRed:hover,.sdRed:focus,.ovRed:focus,.poBtn:focus,.smRed:focus{background:#D40100;}
+.smGrey,.sdGrey,.ovGrey{background:#86878a;color:#fff !important;}
+.sdGrey:hover,.ovGrey:hover,.smGrey:hover,.sdGrey:active,.ovGrey:active,.smGrey:active,.sdGrey:focus,.ovGrey:focus,.smGrey:focus{background:#595a5d;}
+.smSilv,.sdSilv{background:#ecedee;color:#595a5d !important;}
+.smSilv:hover,.sdSilv:hover,.smSilv:active,.sdSilv:active,.smSilv:focus,.sdSilv:focus{background:#dedfe0;}
+.ovRed,.ovGrey{padding:8px 15px;}
+.smRed.disabled,.sdRed.disabled,.ovRed.disabled,.smGrey.disabled,.sdGrey.disabled,.ovGrey.disabled,.smRed.disabled:hover, .sdRed.disabled:hover,.ovRed.disabled:hover,.smGrey.disabled:hover,.sdGrey.disabled:hover,.ovGrey.disabled:hover,.poBtn[disabled],.poBtn[disabled]:hover,.poBtn.disabled,.poBtn.disabled:hover{background:#999 !important;text-decoration:none;cursor:default;-webkit-box-shadow:0px 0px 6px 0px rgba(0, 0, 0, 0.2) inset;-moz-box-shadow:0px 0px 6px 0px rgba(0, 0, 0, 0.2) inset;box-shadow:0px 0px 6px 0px rgba(0, 0, 0, 0.2) inset;} .smRed.hCenter,.sdRed.hCenter,.ovRed.hCenter,.smGrey.hCenter,.sdGrey.hCenter,.ovGrey.hCenter,.smSilv.hCenter,.sdSilv.hCenter,.poBtn{float:none;margin:0 auto;display:inline-block;}
+
+/*Setup Service*/
+#loopQual h3{font:normal 28px/1.2 VerizonApexMediumItalic,Arial,Helvetica;margin:15px 0 10px;}#loopQual h3 span{font:normal 32px/1.2 VerizonApexBold;text-transform:uppercase;}
+#loopQual h3#body_content_subHeaderText{margin-top:0;}
+
+#loopQual p.t_litecharcoal{font-size:12px !important;padding-top:5px;}
+#loopQual p.t_charcoal{font-size:14px !important;}
+#loopQual .accordion-group,#dvFAQData .accordion-group{border:none;border-bottom:1px solid #ccc;margin:0;border-radius:0;}
+#loopQual .accordion,#dvFAQData .accordion{margin:0;}#dvFAQData .accordion-group{border-bottom:1px solid #ecedee}
+#loopQual .accordion-group .accordion-toggle,#loopQual .accordion-group .accordion-toggle:hover,#dvFAQData .accordion-group .accordion-toggle,#dvFAQData .accordion-group .accordion-toggle:hover{padding:16px 10px;text-decoration:none;}
+#loopQual .accordion-group .accordion-inner{border:none;padding:15px}#dvFAQData .accordion-group .accordion-inner{border:none;padding:15px 15px 15px 38px}
+#loopQual .accordion-group .accordion-toggle .ico,#dvFAQData .accordion-group .accordion-toggle .ico{background:url(../Images/global_sprite_web_new.png) no-repeat 0px -344px;width:25px;height:25px;float:left;}#dvFAQData .accordion-group .accordion-toggle .ico{background-position:0px -347px;}
+#loopQual .accordion-group .accordion-toggle .txt{color:#444;padding-left:5px;font:normal 21px/1.2 VerizonApexMediumItalic,Arial,Helvetica;}#dvFAQData .accordion-group .accordion-toggle .txt{padding-left:5px;font:normal 16px/1.2 VerizonApexMediumItalic,Arial,Helvetica;}
+#loopQual .accordion-group .accordion-toggle.collapsed .ico{background-position:0px -394px;}#dvFAQData .accordion-group .accordion-toggle.collapsed .ico{background-position:0px -397px;}
+#loopQual .accordion-group .accordion-body{padding:0 15px 0 25px;}#dvFAQData .accordion-group .accordion-body{background:#ecedee;}
+#loopQual h4{font:normal 18px/1.2 verizonApexBold,Arial,Helvetica;color:#444;margin:0 0 15px 0;}
+#loopQual .sectionPadding.LQ{border:none !important;}
+#loopQual .LQ .addressDiv{padding-left:35px;width:60%;}.overlay #loopQual .LQ .addressDiv{width:70%;}
+#loopQual .sdRed,#loopQual .sdGrey,#existingServ .sdRed,#moves .moves_content .sdRed{min-width:200px;}#moves .moves_content.ocm .sdRed{min-width:100px;}
+#loopQual .setupNew{padding-left:35px;}#loopQual .tipsDiv{margin:2px 0 0 25px;font:normal 16px Arial,Helvetica;}
+#loopQual .movesDiv{float:right;margin:22px 20px 0 0;font:normal 16px Arial,Helvetica;}
+#loopQual #newService .newAddress div.span12{padding-top:0 !important;position:relative;}
+#loopQual #newService .newAddress .zipDiv,#loopQual #newService .newAddress .stDiv{margin-right:20px;}
+#loopQual #newService .newAddress .zipFld{width:60px;}#loopQual #newService .newAddress .stFld{width:400px;}#loopQual #newService .newAddress .aptFld{width:140px;}#loopQual #newService .newAddress .aptError{padding:0 0 10px 554px;}
+#loopQual #newService .newAddress .clearLoc{float:left;display:block;padding:23px 0 0 10px}
+#existingServ p.subHead{font-size:16px;color:#666;}#existingServ .discText,#dvExistingCustomer .discText{font-size:12px !important;color:#888;padding-top:3px;}#dvExistingCustomer a{font-size:14px;}#existingServ .discText.t_charcoal{color:#666;}
+#existingServ .exForm{padding:15px 0;}h3#hdTxt{margin-top:0;}
+#existingServ h3,h3#hdTxt{font-size:28px;}#existingServ h3 .pull-right,h3#hdTxt .pull-right{font:normal 16px Arial,Helvetica;color:#333;padding-top:16px;}
+#existingServ .exForm .ORSeperator,#FastPass .retrieveOrder .ORSeperator{position:relative;float:left;width:30px;height:200px;margin-right:20px;}
+#existingServ .exForm .ORSeperator .ORline,#FastPass .retrieveOrder .ORline{height:200px;font-size:1px;line-height:1px;width:1px;position:absolute;border-right:2px dotted #999;left:50%;}
+#existingServ .exForm .ORSeperator .OR,#FastPass .retrieveOrder .OR{padding:5px;margin:0;width:24px;font-family:VerizonApexBold,Arial,Helvetica;text-align:center;font-size:16px;color:#666;background:#e3e3e3;position:absolute;top:40%;}
+#dvExistingCustomer input.span11, #dvExistingCustomer input.span9{width:340px;}
+#dvSigninCTA button{margin:0 10px;}
+#lqThankyou .btn{padding:8px 20px !important;min-width:100px !important;}
+.errorPage h3{font:normal 28px/1.2 verizonApexMediumItalic,Arial,Helvetica;margin:0 0 5px 0;}.errorPage h2{font:normal 40px/1 verizonApexBold,Arial,Helvetica;margin:0;}.errorPage h4{font:normal 24px/1.2 verizonApexMediumItalic,Arial,Helvetica;color:#fff;margin:0 0 20px 0}.errorPage h5{font:normal 18px/1.2 verizonApexBook,Arial,Helvetica;}.errorPage .social{border-left:1px solid #999;margin:10px 0;}.errorPage .social a{width:32px;border-right:1px solid #999;padding:0 10px;float:left;display:block;}
+.mvzHeaderLogo{ display:none; }
+
+/* Selections */
+ ul.btn_list { padding:0; margin:0; }
+ ul.btn_list li{ position:relative; padding:8px 15px; margin-left:20px; margin-bottom:20px; float:left; display:block; width:106px; height:20px; background-color:#ECEDEE; border:#D2D3D4 solid 2px; } 
+ul.btn_list li:first-child { margin-left:0px; }
+ul.btn_list li.active{ background-color:#3195A9; border-color:#3195A9; color:#ffffff; } #customize ul.btn_list li p.pno{ margin:0; padding:0; font-size:18px; }
+ul.btn_list li .selected_carrot{ background:url(../Images/carrot-selected.jpg) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+ul.btn_list li:nth-child(4) { margin-left:0; }
+#customize ul.btn_list li.callingplan{ width:140px; margin-bottom:10px; }#customize ul.btn_list li.callingplan:nth-child(4){ margin-left:20px; }
+#ssb ul.btn_list li {padding:8px 6px; width:125px;}
+ul.btn_list_tv { }
+ ul.btn_list_tv { padding:0; margin:0; }
+ ul.btn_list_tv li{ position:relative; padding:8px 15px; margin-left:20px; margin-bottom:20px; float:left; display:block; width:143px; height:20px; background-color:#ECEDEE; border:#D2D3D4 solid 2px; } 
+ul.btn_list_tv li:first-child { margin-left:0px; }
+ul.btn_list_tv li.active{ background-color:#3195A9; border-color:#3195A9; color:#ffffff; } #customize ul.btn_list li p.pno{ margin:0; padding:0; font-size:18px; }
+ul.btn_list_tv li .selected_carrot{ background:url(../Images/carrot-selected.jpg) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+ul.btn_list_tv li:nth-child(5), ul.btn_list_tv li:nth-child(9) { margin-left:0; }
+
+
+/* Cart  */
+.cart{ float:right;  height:50px;  text-align:right;}
+.cart .firstmonth{ float:left; width:85px;  background: url("../Images/cart_cta.png") no-repeat 3px 5px; margin-top:2px;  min-height:27px; padding:21px 10px 0px 50px; cursor:pointer;} .cart .firstmonth p{ padding:2px;text-align:right; margin:0;  }.cart .firstmonth .price{ font-size:18px; line-height:18px; } .cart .totalsaving{float:left; background:#ED1C24 ; min-height:49px; padding:0px 10px 0px 10px; color:#ffffff; cursor:pointer; }.cart .label_save{ margin-top:7px; } .cart .save_price{ margin-top:3px; margin-left:7px; }
+.cart .save_price p{ padding:2px; margin:0; line-height:15px; }.cart .save_price .price{ font-size:18px; line-height:18px; } .cart .save_price .hint{ font-size:14px;line-height:14px; font:normal 14px VerizonApexBookItalic,Arial,Helvetica; line-height:14px; }
+.cart p.price, .price{font-size:14px;line-height:14px; font:normal 14px VerizonApexBold,Arial,Helvetica; text-align:left;}.cart .firstmonth{color:#ED1C24;}
+.label_save, .save_price{ float:left; }.label_save .p1, .label_save .p2{ font-family: VerizonApexBold,Arial,Helvetica; }
+.label_save .p1{ font-size:18px; margin:0; padding-top:2px; line-height:18px; }.label_save .p2{ font-size:13px; margin:0; padding;0; line-height:14px; }
+
+/*Customize Cart*/
+.customizeCart{background:#333;min-height:100px;color:#fff;width:100%;box-shadow:0 0 10px rgba(0,0,0,0.7);border-top:1px solid #222;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);position:relative;}
+.customizeCart.fixed{left:0;position:fixed;z-index:1001;bottom:0;}
+.customizeCart .cartCTA{text-align:right;border-left:1px solid #c4c5ca;}
+.customizeCart .cartCTA button,.customizeCart .cartCTA input{margin:30px 0 0 10px;min-width:150px;float:right}
+.customizeCart .cartInfo .pad10{padding:8px 10px 8px 20px;}.customizeCart .cartInfo .span3{text-align:right;}
+.customizeCart .cartInfo .span3,.customizeCart .cartInfo .span9{min-height:20px;}
+.customizeCart .cartInfo .totalBreakup{font:normal 14px/1.2 VerizonApexBook,Arial,Helvetica;}
+.customizeCart .cartCTA .cartCard{font-size:14px;float:left;padding-bottom:10px;}.customizeCart .cartCTA .cartCard img{width:22%;}
+.customizeCart .cartInfo .totalMain{font:normal 16px/1.7 VerizonApexBold,Arial,Helvetica;text-transform:uppercase;}
+.customizeCart .cartInfo .totalMain .price{font:normal 21px/1 VerizonApexMediumItalic,Arial,Helvetica;}
+.customizeCart .cartInfo .f14{padding-top:5px;}
+.customizeCart .cartCTA .detailsBtn{font:normal 12px verizonApexMedium;width:50px;float:left;display:block;color:#ffffff;border:none;text-decoration:none;padding-top:40px;background:transparent url(../Images/cart_sprite.png) no-repeat 2px top;margin:12px 0 0 12px;text-align:center;}.customizeCart .cartCTA .detailsBtn:hover,.customizeCart .cartCTA .detailsBtn:active{background:transparent url(../Images/cart_sprite.png) no-repeat 2px top;}
+.custCartHolder{width:620px;position:fixed;z-index:1002;color:#fff;}.custCartBox{background:#333;min-height:200px;border:2px solid #666;box-shadow:0 0 10px rgba(0,0,0,0.8);-webkit-box-shadow:0 0 10px rgba(0,0,0,0.8);-moz-box-shadow:0 0 10px rgba(0,0,0,0.8);-ms-box-shadow:0 0 10px rgba(0,0,0,0.8);}.custCartArrow{height:30px;background:transparent url(../Images/car_arrow.png) no-repeat 515px top;position:relative;margin-bottom:-2px;}.custCartBox .tab-content{max-height:400px;overflow-y:auto;}
+.custCartHolder .header{text-align:center;padding:10px 0;font:normal 21px VerizonApexMedium;color:#fff;}
+.custCartHolder .header .cartClose{width:30px;height:30px;background:transparent url(../Images/cart-close.png) no-repeat center top;cursor:pointer;display:block;float:right;margin-right:15px;}
+.custCartHolder .nav-tabs{background:none;border-top:1px solid #666;border-bottom:1px solid #666;height:71px;margin-bottom:10px;}
+.custCartHolder .nav-tabs > li a .price .dlr,.custCartHolder .nav-tabs > li a .price .cents{font-family:VerizonApexMedium;}
+.custCartHolder .nav-tabs > li a .price .amt{font:normal 31px/34px VerizonApexMedium;}.custCartHolder .nav-tabs > li a .months{font-size:12px}
+.custCartHolder .nav-tabs > li a{padding:10px;border-color:#666;color:#999;}
+.custCartHolder .nav-tabs > li.active > a,.custCartHolder .nav-tabs > li.active > a:hover,.custCartHolder .nav-tabs > li.active > a:focus,.custCartHolder .nav-tabs > li > a:hover,.custCartHolder .nav-tabs > li > a:focus{min-height:52px;border-color:#ED1C24;color:#fff;}
+.custCartHolder .nav-tabs > li .arwDiv{width:100px;background-position:center -453px;}
+.custCartHolder .tab-pane p{font-size:13px !important;margin-bottom:2px;}
+.custCartHolder .tab-pane .row-fluid{border-bottom:1px solid #666;padding:8px 0;}
+.custCartHolder .tab-pane .span3 p{padding-left:20px;}.custCartHolder .tab-pane .span8 p{padding-left:20px;}
+.custCartHolder .tab-pane p.moreTxt{padding:8px 0;padding-left:20px;}
+.custCartHolder .tab-pane .row-fluid [class*="span"]{margin:0 !important;min-height:10px !important;}
+.custCartHolder .tab-pane .row-fluid .row-fluid {border-bottom:none;padding:0;}
+.custCartHolder .tab-pane .row-fluid .row-fluid p{margin-left:0;}
+
+
+
+/* Price */
+.rate {clear:both; display:table;overflow:hidden; }
+.rate .price{height:30px; padding-top:3px;float:left; font-family:VerizonApexMedium;letter-spacing:0px;}
+.rate.closer .price {margin-left:10px;}
+.rate .price .sign {font-size:20px;line-height:1;}
+.rate .price .dollar {font-size:30px;line-height:1;height:40px;}
+.rate .price .stack {margin-left:1px;}
+.rate .price .stack .cents {font-size:14px;line-height:1;border-bottom-width:1px; border-bottom-style:solid;padding-bottom:2px; font-family:VerizonApexBold;}
+.rate .price .stack .period {font-size:9px;line-height:1.2;text-align:center;text-transform:uppercase;padding-top:2px; font-family:VerizonApexBold;}
+.rate .rate .price{color:#333;padding-top:3px;}
+.rate .price.strikeout{color:#A3A3A3;position:relative;display:block;margin-left:0px;height:45px;}.rate .price.strikeout.hidden{display:none;}
+.rate .price.strikeout img {position:absolute;z-index:1;left:2px; top:2px;}
+.rate .price.strikeout .stack .cents{border-bottom:1px solid #999;}
+.rate .freeTxt{font:17px/1.1 VerizonApexBoldItalic;text-transform:uppercase;color:#ED1C24;float:left;width:45%;letter-spacing:-.5px;}
+.free{ padding-top:10px; color:#4A9A4D; }
+.checked .free{ color:#ffffff; }
+
+
+/* DO pages*/
+.doOverlay .topHeader{padding:15px 20px;border-bottom:3px solid #ed1c24;position:relative;}
+.doOverlay .topHeader .arrow,.newsticker_section .arrow{position:absolute;left:50%;display:block;height:14px;width:20px;background:transparent url(../Images/global_sprite_web_new.png) no-repeat center -451px;bottom:-15px;}
+.doOverlay .topHeader h3{font:normal 20px/1.2 VerizonApexMedium;padding:0;margin:0 0 6px 0;color:#444;text-align:center;text-transform:uppercase;}
+.doOverlay .topHeader h3.red{font:normal 34px/.9 VerizonApexMedium;color:#ed1c24;text-transform:none;margin:2px 0 0 0px;}
+.doOverlay .topHeader h4{font:normal 24px/1 VerizonApexMedium;padding:0;margin:2px 0 10px;color:#333;text-align:center;}
+.doOverlay .topHeader h6{font:normal 16px Arial,Helvetica;color:#595A5D;margin:0;padding:0;text-align:center;}
+.doOverlay .genericBox{background:#ecedee;padding:30px;font-size:16px;}
+.doOverlay .genericBox h2{font:normal 26px/1.2 VerizonApexBoldItalic;padding:0;margin:0;text-transform:uppercase;text-align:center;}.doOverlay .genericBox h6{font:normal 16px/1.2 VerizonApexMedium;padding:0;margin:0;text-transform:uppercase;text-align:center;}
+.doOverlay .genericBox .products_list .span4{margin-top:25px;}
+.doOverlay .genericBox .products_list .span4 img{width:50%;}
+.doOverlay .genericBox .products_list h4{font:normal 20px/1.2 VerizonApexMedium;margin:0}.doOverlay .genericBox .products_list p{margin:0;}.doOverlay .genericBox .products_list h3{font:normal 24px/1.2 VerizonApexBold;padding:0;margin:0 0 12px 0;color:#ed1c24;}.doOverlay .genericBox .products_list h5{font:normal 16px arial;}
+.doOverlay .redHeader{background:#ed1c24;padding:7px 0 13px 0;font:normal 18px VerizonApexMediumItalic;text-align:center;color:#fff;}
+.doOverlay .cavail_footer{font-size:16px;}
+.doOverlay .cavail_footer .col_left .cavail_img{width:30%;margin:20px 0 0 20px;}
+.doOverlay .cavail_footer .col_left p{padding-left:25px;padding-top:38px;float:left;}
+.doOverlay .cavail_footer .col_right p{text-align:center; padding-top:38px;}
+.doCTA button{min-width:200px;}
+
+
+
+/* LQ Overlay Great News ticker */
+#standalone_availability .newsticker_section table{width:100%; border-collapse:collapse}
+#standalone_availability .newsticker_section table tr td{}
+#standalone_availability .newsticker_section table tr td:first-child p{margin-bottom:0; padding:20px;}
+#standalone_availability .newsticker_section table tr td p{margin-bottom:0; padding:20px 20px 20px 0;}
+#standalone_availability .newsticker_section table tr td:first-child{width:20%; background-color:#d2d3d4; vertical-align:middle; font:22px/24px VerizonApexMediumItalic,Arial; text-align:center; border-bottom:6px solid #d2d3d4; background-image:none; padding-left:0;}
+#standalone_availability .newsticker_section table tr td {background: #fff url(../Images/lq_successarrow_1.png) left center no-repeat;  border-bottom:6px solid #ed1c24;  padding-left:30px; font:16px VerizonApexBold,Arial; position:relative;}
+#standalone_availability .newsticker_section table tr td .arrow{position:absolute;left:15%;display:block;height:14px;width:20px;background:transparent url(../Images/global_sprite_web_new.png) no-repeat center -451px;bottom:-19px; z-index:10; -moz-bottom:-21px;}
+
+/* Save Orde feedback*/
+#SavedOrder .feedback_wrap {border:2px solid #ccc;}
+#SavedOrder .feedback_wrap p{color:#59595D;}
+#SavedOrder .feedback_wrap .span7 {border-left:1px solid #ccc; padding-left:40px;}
+
+
+
+
+
+.price_wrap {display:table-cell;color:#444444;padding-bottom:10px;font-family:VerizonApexMedium}
+.price_wrap .price .sign{font-size:26px; margin-top:-6px;}
+.price_wrap .price .dollar{font-size:46px; height:40px;line-height:57px;position:relative;top:-8px;}
+.price_wrap .price .stack{line-height:25px;margin-left: 1px;}
+.price_wrap .price .stack .cents{border-bottom: 1px solid #333333;font-size:23px;margin-top:0;}
+.price_wrap .price .stack .period{font-size:11px;font-weight:normal;line-height:16px;padding-left:4px;text-transform:uppercase;}
+.price_wrap .contract{padding:0 0 0 10px;width:100%;float:left;line-height:16px;}
+.sub_price_wrap {display:table-cell;color:#777;padding:0 0 5px 26px;font-family:VerizonApexBook}
+.sub_price_wrap .price .sign{font-size:19px;margin-top:0px;margin-top:-6px;}
+.sub_price_wrap .price .dollar{font-size:36px;height:40px;line-height:37px;position:relative;top:-5px;}
+.sub_price_wrap .price .stack{margin:-5px 0 0 1px;}
+.sub_price_wrap .price .stack .cents{border-bottom:1px solid #999999;font-size:16px;margin-top:0;}
+.sub_price_wrap .price .stack .period{font-size:9px;font-weight:normal;padding-left:1px;text-transform:uppercase;}
+.sub_price_wrap .contract{padding:0 0 0 8px;margin:-7px 0 5px 0;line-height:16px;}
+.product_avlbilty sup{font-size:60%;}
+.lineht_normal{line-height:normal !important;}
+sup.product_title{font-size:0.444em;}
+.qualify_title{letter-spacing:0.03em;}
+#bundle_details .span12 .span4{width:33.233567% !important; text-align:center;margin:0;position:relative;}#bundle_details .span12 .span4 .dopad{padding:12px 0px;}
+#bundle_details .span12 .span4 .product_img{max-width:50%;margin-bottom:5px; margin:0 auto;}
+#bundle_details .span12 .span4 .prodicon_plus{position:absolute;top:30px;left:92%;}
+#bundle_details .para_wrap{font-size:14px;padding-top:5px;}
+#bundle_details .span12 .span6 {width:49.55;text-align:center;margin:0;position:relative;}#bundle_details .span12 .span6 .dopad{padding:12px;}
+#bundle_details .span12 .span6 .product_img{max-width:60%;margin:0 auto 5px auto;}
+#bundle_details .span12 .span6 .prodicon_plus{position:absolute;top:22%;left:92%;}
+.price_tripleplaypad{padding:20px 0 12px 28px}
+.price_tripleplaynoofferpad{padding:26px 28px;}
+.productdetails_section{margin-bottom:15px;}
+.productdetails_section .product_title{margin:10px 0 0 0;font:normal 18px/1.2 VerizonApexMediumItalic;text-align:center;}
+.productdetails_section .product_title sup,.productdetails_section .product_details sup,#bundle_details .para_wrap sup{font-size:50%;}
+.bundle_details_section{margin-bottom:22px;}
+.promo_txt{text-align:center; padding:0 20px;font-weight:bold;font-size:0.857em;margin-bottom:16px;}
+.productdetails_section .product_details{text-align:center;font:normal 22px/1.2 VerizonApexBold;margin-bottom:10px;}
+#standalone_availability > .bg_white .w70 .f14{font-size:16px;}
+.product_avlbilty{font-size:1.143em;}
+#standalone_chkavail,#standalone_chkavail iframe{min-height:530px;}
+#chkavl_overlay,#chkavl_overlay iframe{min-height:530px;}
+#doubleplay_overlay,#doubleplay_overlay iframe{min-height:550px;}
+#tripleplay_wcontract,#tripleplay_wcontract iframe{min-height:540px;}
+#tripleplay_wocontract,#tripleplay_wocontract iframe{min-height:600px;}
+.spl_offer{background:#d2d3d4;padding:12px 20px;text-align:center;}.spl_offer .offHead{font:normal 14px/1.2 VerizonApexBoldItalic;text-transform:uppercase;color:#5a595d;padding-bottom:8px;}.spl_offer p{margin:0 !important;}
+.bundle_details_section .bundle_img{padding-top:12px;}.bundle_details_section .bundle_price{padding:20px 10px 10px 20px }
+.bundle_details_section .bundle_price p{margin:0;}
+.dplaybundle_details_section{margin-bottom:28px}
+.tplaybundle_details_section{margin-bottom:22px}
+.tplaybundle_details_section .bundle_img{padding-top:8px}
+.tplaybundle_details_section .bundle_price{padding:46px 10px 34px 20px;}.tplaybundlewo_details_section .bundle_price{padding:20px 10px 20px 20px;}
+.tplaybundlewo_details_section{margin-bottom:15px}
+.tplaybundlewo_details_section .bundle_img{padding-top:3px;}
+.tplaybundlewo_details_section .bundle_price .pad{padding:22px 18px 20px 28px }
+#chkavl_overlay #availability h2{font-size:1.571em; letter-spacing:0.0001em; margin-bottom:0px !important;line-height:20px;}
+.learnmore_title{font-size:1.114em !important; letter-spacing:0.02em;}
+.webovrly{width:570px; margin-left:-280px !important;}
+#checkavailability .quantum_promo {padding:16px 16px 16px 14px;}
+
+
+
+/*customize common*/
+#customize .step{ border:#ECEDEE solid 2px; background-color:#ffffff; margin-bottom:20px; cursor:pointer; padding:0px 30px; }
+#customize .step-title{ padding:20px 0px; min-height: 35px; }
+#customize .step_cont_wrapper{ border-top:#D2D3D4 solid 1px; }
+#customize .step_content{ padding:20px 0px 0px 0px; }
+#customize .step-footer{ padding:20px 25px; border-top:#D2D3D4 solid 1px;}
+#customize .step h3{ margin-bottom:0; color:#86878A; font:normal 20px/1.2px VerizonApexBookItalic,Arial,Helvetica; }
+#customize .step.active h3 { font:normal 24px/1.2px VerizonApexBook,Arial,Helvetica; color:#333333; }
+#customize .step h3 span.no{ font:normal 28px VerizonApexBook,Arial,Helvetica; padding-right:10px; }
+#customize .step.active{ border:#D2D3D4 solid 2px; cursor:default !important ; }
+#customize .step.active h3,#customize .step.active h3 span.no{ color:#333333; }
+#customize .step h3.level2 { margin:0px 0px 15px 0px !important;  font:normal 20px VerizonApexBookItalic,Arial,Helvetica;  }
+#customize .step h3.total { font:normal 18px VerizonApexMedium,Arial,Helvetica; color:#595A5D; }
+#customize .step h3.total span.price{ font:normal 27px VerizonApexMedium,Arial,Helvetica; color:#333333; }
+#customize .step .tick{ margin-top: 5px;width: 28px;height: 28px; display:inline-block; margin-right:10px; }
+#customize .custom_options{ margin:0px 53px; }
+#customize .misc-trigger{  float:right;}
+#customize .misc-trigger a { display:inline-block;}
+#customize .misc-trigger a span{ background:url(../Images/channel_logo_generic_small.png) no-repeat -35px -121px; width:13px; height:18px; display: inline-block;float: right;margin-left: 10px;margin-top: 1px;  }
+#customize .misc-trigger a.ico{ background:url(../Images/arow-right.png) no-repeat 100% 50%; display:block; width:80px; text-align:center; padding-right:20px;  }
+#customize .misc-trigger a.ico.tv{ height:52px; }
+#customize .misc-trigger a.ico.stb{ height:26px; }
+#customize .misc-trigger a.ico.router{ height:66px; }
+#customize .channel-details,#customize .premium-channels,#customize .equip-details { position:relative; }
+#customize .title-type2{ color:#595A5D; font:normal 16px VerizonApexMedium,Arial,Helvetica; display:block; padding:0px 0px 20px 0px; }
+#customize .edit_area { background:#F7F7F7; border-bottom:3px solid #D2D3D4; border-top:#FADF4C solid 5px; padding:20px; margin:15px 0px; position:relative; }
+#customize .edit_area .carrot_options { position:absolute; top: -15px; right: 145px; background:url(../Images/carrot-for-options.png) no-repeat; width:22px; height:15px; }
+#customize .step.active .edit_area h3 { font-family:"VerizonApexMediumItalic"; font-size:16px; color:#595A5D; }
+#customize .title-type2-icon{ margin-right:15px;  }
+#customize .custom_options a.close_lnk {color:#ed1c24;}
+#customize .edit_area.lda { background:#ECEDEE;}
+#customize .sDesc a span{ background:url(../Images/channel_logo_generic_small.png) no-repeat -35px -121px; width:13px; height:18px; display: inline-block;float: right;margin-left: 10px;margin-top: 1px;  }
+
+#customize .edit_area .row-fluid .span4 { width: 29.6239%; padding-left:10px; padding-right:10px; }
+#customize .edit_area .row-fluid .bootstrap-select.span4 { width:140px; }
+#customize .edit_area .row-fluid .span8 { width: 67.812%; border-right:#d2d3d4 solid 1px; }
+
+#customize .recommend { color:#ffffff; background-color:#ED1C24; text-align:center; padding:0px 0px; position:absolute; bottom:-25px; font-size:12px; height:18px; width:100%; left:-2px; border:2px solid #ED1C24; }
+#customize #dvPPVTOSSection .smRed, #customize #ulTVTavernCount .smRed{ float:right;}
+#customize .step_cont_wrapper .contactinfochoice > .span6{width:45%;}
+#customize h3.headlinglearn_cont {line-height:normal !important; display:block !important;}
+#customize .headlinglearn_cont a {font:14px Arial, Helvetica, sans-serif; float:right; padding-top:3px;}
+.contentSecWrap .content {border-bottom:1px solid #ccc; margin-bottom:20px; padding-bottom:10px;}
+.contentSecWrap .content h3{font-size:20px;}
+.contentSecWrap .content.last{border-bottom:none; margin-bottom:0; padding-bottom:0;}
+#customize .headlinglearn_cont a span{ background:url(../Images/channel_logo_generic_small.png) no-repeat -35px -121px; width:13px; height:18px; display: inline-block;float: right;margin-left: 10px;margin-top: 1px;  }
+
+#customize .sprite { background:url(../Images/channel_logo_generic.png) no-repeat; width:35px; margin-right:13px; }
+#customize .sprite.tv_plan {  background-position:0px 0px; height:26px;  float:left;  }
+#customize .sprite.tv_equipment { background-position:0px -196px; height:26px;  float:left;   }
+/* Disclimer Accordion*/
+#discliamerAcc .accordion-group.noborder .accordion-toggle{padding:2px 0 2px 0 !important;}
+#discliamerAcc .accordion-group .accordion-body p{margin-bottom:5px;}
+#discliamerAcc .accordion-group .accordion-toggle .txt{font-size:16px; font-family:"VerizonApexBookItalic",Arial,Helvetica,sans-serif;color:#595a5d;}
+#discliamerAcc .accordion-group .accordion-toggle .ico{background:url(../Images/global_sprite_web_new.png) no-repeat 0px -344px;width:26px;height:26px;float:left;}
+#discliamerAcc .accordion-group .accordion-toggle.collapsed .ico {float:left; padding-right: 10px; background-position:0 -550px;}
+#discliamerAcc .accordion-group .accordion-toggle .ico {float:left; padding-right: 10px; background-position:0 -600px;}
+#discliamerAcc .accordion-group .accordion-heading {margin:0px; padding:10px 15px; border-bottom:1px solid #ccc;}
+#discliamerAcc .accordion-group .accordion-heading a{outline:none; text-decoration:none;}
+#discliamerAcc .accordion-group .accordion-heading a:focus, #discliamerAcc .accordion-group .accordion-heading a:active{outline:none !important; }
+#discliamerAcc .accordion-group .accordion-heading a .price{padding-left:0;}
+#discliamerAcc #discliamerAcc_content .accordion-inner {padding:9px 30px}
+
+/* Calendar
+
+/*customize Phone*/
+
+#customize #PhoneService .row-fluid.phone_tbl [class*="span"], #customize #DataService .row-fluid.phone_tbl [class*="span"]{ margin-left: 0.300%; margin-bottom:0.300%; min-height:47px; } #customize #PhoneService .row-fluid.phone_tbl [class*="span"]:first-child, #customize #DataService .row-fluid.phone_tbl [class*="span"]:first-child { margin-left:0; }
+#customize #PhoneService .row-fluid.phone_tbl .span1 { width:6.58291%; }
+#customize #PhoneService .row-fluid.phone_tbl .span7 { width: 65.247%; }
+#customize #PhoneService .row-fluid.phone_tbl .row-fluid .span3 { width:34.5%; }
+#customize #PhoneService .row-fluid.phone_tbl .row-fluid .span4 { width:65.20%; }
+#customize #PhoneService .row-fluid.phone_tbl .span2 { width:13.5599%; }
+#customize #PhoneService .row-fluid.phone_tbl .th, #customize #DataService .row-fluid.phone_tbl .th  { min-height:23px; font-family:"VerizonApexMediumItalic"; font-size:14px; text-align:left; padding:0; padding-left:10px; padding-bottom:5px; color:#86878A; font-weight:normal; }
+#customize #PhoneService .row-fluid.phone_tbl .sno{ font-family:"VerizonApexBook";font-size:24px;text-align:center;color:#86878A; padding:6px 15px; color:#595A5D;}
+#customize #PhoneService .row-fluid.phone_tbl .pno{ font-size:23px; padding:6px 15px; color:#595A5D;}
+#customize #PhoneService .row-fluid.phone_tbl .plan{font-size:14px; font-weight:bold; padding:13px 15px 6px 15px; color:#595A5D;}
+#customize .row-fluid.phone_tbl a,#customize #phone .row-fluid.phone_tbl a:focus { outline:none !important; text-decoration:none; display:block; padding: 11px 12px; font-size:12px; }
+    #customize .row-fluid.phone_tbl a.icon-question-sign { display:inline-block; padding:0;     }
+#customize #DataService .row-fluid.phone_tbl .span2 { width:13.5599%; }
+#customize #DataService .row-fluid.phone_tbl .span3{ width:21.5%; }
+#customize #DataService .row-fluid.phone_tbl .span7{width: 64.247%;}
+#customize #DataService .row-fluid.phone_tbl p{ padding:13px 15px; margin:0;}
+
+#customize ul.btn_list { padding:0; margin:0; }
+#customize ul.btn_list li{ position:relative; padding:10px 15px; margin-left:20px; margin-bottom:20px; float:left; display:block; width:116px; min-height:20px; background-color:#ECEDEE; border:#D2D3D4 solid 2px; } 
+#customize ul.btn_list li:first-child { margin-left:0px; }
+#customize ul.btn_list li.active{ background-color:#3195A9; border-color:#3195A9; color:#ffffff; } #customize ul.btn_list li p.pno{ margin:0; padding:0; font-size:18px; }
+#customize ul.btn_list li .selected_carrot{ background:url(../Images/carrot-selected.jpg) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+#ssb ul.btn_list li .selected_carrot, #customize ul.btn_list li .selected_carrot_grey, #customize ul.custom_list li .selected_carrot_grey, #customize ul.edit_list li .selected_carrot_grey { background:url(../Images/corner_grey.png) no-repeat; width:14px; height:14px; position:absolute; right:-3px; top:-2px; }
+
+#customize ul.btn_list li:nth-child(4) { margin-left:0; }
+
+
+#customize ul.custom_list { padding:0; margin:0; }
+#customize ul.custom_list li{ position:relative; padding:15px; margin-left:25px; float:left; display:block; width:105px; min-height:90px; background-color:#ECEDEE; border:#D2D3D4 solid 2px; } 
+#customize #DataEquipment ul.custom_list li{ min-height:102px; }
+#customize #DataEquipment .customizeCarousel .frame { min-height:160px; }
+.onetime { position:absolute; bottom:-3px; }
+#customize ul.custom_list li:first-child { margin-left:0px; }
+#customize ul.custom_list li.active{ background-color:#3195A9; border-color:#3195A9; color:#ffffff; } #customize ul.custom_list li p{ margin:0; padding:0; }
+#customize ul.custom_list li .selected_carrot{ background:url(../Images/carrot-selected.jpg) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+
+#customize ul.edit_list { padding:0; margin:0; }
+#customize ul.edit_list li{ position:relative; padding:12px 12px 50px 12px; margin-left:25px; float:left; display:block; width:102px; min-height:57px; background-color:#ECEDEE; border:#D2D3D4 solid 2px; } 
+
+/*.tab-content  .customizeCarousel { width:690px; margin:0 auto;} for carousel */
+#customize ul.custom_list.data_equip li{ width:120px;  }
+
+#customize ul.edit_list li:first-child { margin-left:0px; }
+#customize ul.edit_list li.active{ background-color:#3195A9; border-color:#3195A9; color:#ffffff; } #customize ul.custom_list li p{ margin:0; padding:0; }
+#customize ul.edit_list li .selected_carrot{ background:url(../Images/carrot-selected.jpg) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+
+.list_title{ line-height:16px; } .list_title span{ font-weight:bold; font-size:12px; } 
+.rate_details { position:absolute; bottom:10px; }
+.rate_insight{ margin:0; font-size:12px; line-height:12px; font-weight:bold; }
+.change-link{ font-size:14px; font-weight:bold; display: inline-block; line-height: 22px; margin-top: 10px; }
+/*customize Internet*/
+
+#customize .row-fluid.labor_charge .span4{ width:100%; margin-left:0; padding:10px; margin-bottom:3px; }
+#customize .row-fluid.labor_charge .span4 .list_title{ font-family:"VerizonApexBookItalic"; font-size:18px; }
+#customize .satellitequestion {margin-bottom:20px;}
+#customize .satellitequestion .span2{width:11%}
+.labor_charge_wrap .row-fluid.labor_charge .span4{ width:100%; margin-left:0; padding:10px; margin-bottom:3px; }
+
+/* suggestions */
+#dvYPH { position:relative;}
+#dvYPHOptions ul.suggestion { padding:0; margin:0; position:absolute;}
+#dvYPHOptions ul.suggestion li { list-style:none; display:block; margin-bottom:1px; background-color:#d2d3d4; padding:5px 10px; }
+#dvYPHOptions ul.suggestion li:hover { background-color:#595A5D; color:#ffffff;    }
+
+.sectionChannelTab .nav-tabs,.sectionVasipTab .nav-tabs{background:#ecedee url(../Images/tabnav_greybkg.png) repeat-x left top;border:0;min-height:58px;height:auto;margin:0;border-left:1px solid #d2d3d4;}
+.sectionChannelTab .nav-tabs > li,.sectionChannelTab .nav-tabs > li.active,.sectionVasipTab .nav-tabs > li,.sectionVasipTab .nav-tabs > li.active{margin:0;display:block;}
+.sectionChannelTab .nav-tabs > li,.sectionVasipTab .nav-tabs > li{border-left:1px solid #fff;border-right:1px solid #ccc; width:24.5921%;}
+.sectionChannelTab .nav-tabs > li.active,.sectionVasipTab .nav-tabs > li.active{border-top:2px solid #ED1C24;}
+.sectionChannelTab .nav-tabs > li a,.sectionVasipTab .nav-tabs > li a{border-radius:0;padding:15px 15px 12px 15px;border:0;margin:0;display:block;text-align:left;color:#5a595d;border-right:none !important;font:normal 14px/1 VerizonApexMedium;text-transform:uppercase;}
+.sectionChannelTab .nav-tabs > li.active > a,.sectionChannelTab .nav-tabs > li.active > a:hover,.sectionChannelTab .nav-tabs > li.active > a:focus,.sectionVasipTab .nav-tabs > li.active > a,.sectionVasipTab .nav-tabs > li.active > a:hover,.sectionVasipTab .nav-tabs > li.active > a:focus{border:0;background:#FFFFFF;color:#ED1C24;min-height:30px;padding-top:15px;padding-bottom:14px;}
+.sectionChannelTab .nav-tabs > li > a:hover,.sectionChannelTab .nav-tabs > li > a:focus,.sectionVasipTab .nav-tabs > li > a:hover,.sectionVasipTab .nav-tabs > li > a:focus{color:#ED1C24;min-height:0px;background:none;}
+.sectionVasipTab .nav-tabs > li{position:relative;width:16.5%;}.sectionVasipTab .nav-tabs > li > a,.sectionVasipTab .nav-tabs > li > a:hover,.sectionVasipTab .nav-tabs > li > a:focus,.sectionVasipTab .nav-tabs > li > a:active,.sectionVasipTab .nav-tabs > li.active > a,.sectionVasipTab .nav-tabs > li.active > a:active,.sectionVasipTab .nav-tabs > li.active > a:focus,.sectionVasipTab .nav-tabs > li.active > a:hover{position:relative;height:56px;padding:0;}.sectionVasipTab .nav-tabs > li > a span{position:absolute;display:block;bottom:5px;text-align:center;width:100%;}
+
+#ADDONs .tab-content{ background-color:#FFFFFF; padding:20px 0px; overflow:visible; }
+#ADDONs .tab-content .customizeCarousel .frame { min-height:130px;    }
+#ADDONs .tab-content .customizeCarousel .controls{ top:22%; }
+#customize #ADDONs ul.custom_list li { padding-bottom:45px; min-height:55px; }
+#tv_equipment.customizeCarousel ul.custom_list li:first-child { margin-left:7px; }
+#TvView ul.btn_list li{ width:145px;}
+/*customize TV*/
+#customize #tv {}
+#tvQuestionaire ul.btn_list li{ width:145px;}
+ul.tv-count{ padding:0; margin:0; }
+ul.tv-count li{ list-style:none; display:block; float:left; width:30px; height:30px; font-size:21px; line-height:30px; text-align:center;}
+ul.tv-count li.button{ }
+
+/* General Box */
+.step.active{ border:#D2D3D4 solid 2px; cursor:default !important ; }
+.step{ border:#ECEDEE solid 2px; background-color:#ffffff; margin-bottom:20px; cursor:pointer; padding:0px 30px; }
+.step-footer{ padding:20px 25px; border-top:#D2D3D4 solid 1px;}
+ 
+
+/*Checkout */
+#checkoutsptone .step-title h3{line-height:normal !important;}
+#checkoutsptone .row-fluid.email .span6.note p{padding-top: 8px;margin: 0px !important;}
+#checkoutsptone .row-fluid.email .span6 .f13{font-size: 12px;line-height: 1.3;}
+#checkoutsptone .row-fluid.email .span6.note{margin-left: 0px;}
+#checkoutsptone .sectionwrap{border-top:1px solid #ccc; padding-top:20px;}
+#checkoutsptone .billattn > div.span6 > div {margin-top:10px;}
+#checkoutsptone .billattn .span6.attnname p{padding-top:10px;}
+#checkoutsptone .sectionwrap address{text-transform:none;}
+
+#checkoutsptone .accordion-group.noborder .accordion-toggle{padding:2px 0 2px 2px !important;}/* Change 07/30*/
+#checkoutsptone #PhoneSec .accordion-toggle {padding-left:0;}/* Change 07/30*/
+#checkoutsptone .accordion-group .accordion-body p,#reviewOrder #sectionOrdersummary .accordion-group .accordion-body p{margin-bottom:5px;}
+#checkoutsptone .accordion-group .accordion-toggle .txt,#reviewOrder #sectionOrdersummary .accordion-group .accordion-toggle .txt{font-size:1.125em;color:#555;}
+#checkoutsptone .accordion-group .accordion-toggle .txt,#sectionTOS .accordion-group .accordion-toggle .txt{font-size:22px; font-family:"VerizonApexBookItalic",Arial,Helvetica,sans-serif;color:#595a5d;}
+#checkoutsptone .accordion-group .accordion-toggle .ico,#sectionTOS .accordion-group .accordion-toggle .ico{background:url(../Images/global_sprite_web_new.png) no-repeat 0px -344px;width:26px;height:26px;float:left !important;}/* Change 07/30*/
+
+#checkoutsptone ul.custom_list { padding:0; margin:0; }
+#checkoutsptone ul.custom_list li{cursor:pointer !important; position:relative; padding:13px; margin-left:15px; float:left; display:block; min-width:114px; background-color:#ECEDEE; border:#D2D3D4 solid 2px; min-height:17px !important; }
+#checkoutsptone ul.custom_list li:first-child { margin-left:0px; }
+#checkoutsptone ul.custom_list li.active{ background-color:#3195A9; border-color:#3195A9; color:#ffffff; } #checkoutsptone ul.custom_list li p{ margin:0; padding:0; }
+#checkoutsptone ul.custom_list li .selected_carrot{ background:url(../Images/carrot-selected.jpg) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+#checkoutsptone .list_title{ line-height:16px; min-height:16px;} #checkoutsptone .list_title span{ font-weight:bold; font-size:12px; } 
+#checkoutsptone .creditinfo {background-color:#F7F7F7; border:2px solid #ECEDEF; padding:20px; margin:15px 0px;}
+#checkoutsptone .edit_area { background:#F7F7F7; border-bottom:3px solid #D2D3D4; border-top:#FADF4C solid 5px; padding:20px; margin:15px 0px; position:relative; }
+#checkoutsptone .ssntitle{font:bold 1.25em/1.5em Arial,Helvetica; color:#59595d;}
+#checkoutsptone .step h3.level2 {font-family:VerizonApexMediumItalic,Arial,Helvetica; color:#595a5d }
+#checkoutsptone #checkoutordersummry .accordion-heading {margin:0px; padding:20px 30px; border-bottom:1px solid #ccc; position: relative;
+  margin-left: -30px;  margin-right: -30px;}
+#checkoutsptone #checkoutordersummry .accordion-group.noborder .accordion-toggle { padding-left:0px !important;}
+#checkoutsptone #checkoutordersummry .accordion-group .accordion-toggle .txt {  line-height: 21px;  padding-left: 10px;}
+#checkoutsptone #checkoutordersummry .accordion-heading a{text-decoration:none;}
+#checkoutsptone #checkoutordersummry .accordion-group .accordion-toggle.collapsed .ico {float:right; background-position:0 -550px;}
+#checkoutsptone #checkoutordersummry .accordion-group .accordion-toggle .ico {float:right; background-position:0 -600px;}
+#checkoutsptone .edit{font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+#checkoutsptone address{background-color:#f7f7f7; padding:20px; font-family:Arial, Helvetica, sans-serif; color:#595a5d;}
+#checkoutsptone .bootstrap-select.btn-group.span2{margin:0px 8px 10px; width:80px;}
+#checkoutsptone .row-fluid.telnum {width:50%;}
+#checkoutsptone .creditinfo .ssntitle {font-family:VerizonApexBookItalic,Arial,Helvetica; color:#595a5d;}
+#checkoutsptone .creditinfo .ssnpart1.span6{margin-right:10px; border-right:1px solid #ccc; padding-right:20px; width:48%}
+#checkoutsptone .creditinfo .ssnpart2.span6 {width:48%;}
+#checkoutsptone .creditinfo .ssnpartnership .whydo_lnk {display:block;}
+#checkoutsptone .creditinfo .ssnpartnership .ssnpart1 .span4 img{ padding-top:10px;}
+#checkoutsptone .creditinfo .ssnpartnership .ssnpart2 .span4 img{ padding-top:10px;}
+#checkoutsptone .creditinfo .ssnpartnership .ssndonotwish{padding-left:10px;}
+
+#checkoutsptone .billingAdd_padl {padding-left:35px;}
+#secorderconfirmation .revieworder_phoneservices #phoneExtra .span9{margin-left:0px !important;}
+#secorderconfirmation #checkoutOdrSummry .tab-content .accordion-group .accordion-inner {margin-left:30px;}
+
+#oneTimeSec {border-bottom:none;}
+#ChangePlan.change-link { display:inline-block; margin-left:20px; font-size:12px;}
+
+
+.capitalize {    text-transform:capitalize}
+
+/*Due Date*/
+#calendar{width:80%;margin:0 auto;}
+#divTimeSlotOverlay{padding-left:8%;border-left:#ccc solid 1px;min-height:400px;}
+#divTimeSlotOverlay .slot{width:100%;margin:0;padding:0;margin-bottom:5px;}
+#divTimeSlotOverlay .slot .span9{margin-left:5%;}
+
+#calendar .txt_blue span{background-color:#0071BB; width:10px; height:10px; line-height:10px; display:inline-block; margin-right:8px;}
+#calendar .txt_green span{background-color:#4A9A4D; width:10px; height:10px; line-height:10px; display:inline-block;  margin-right:8px;}
+#calendar .txt_green span{background-color:#4A9A4D; width:10px; height:10px; line-height:10px; display:inline-block;  margin-right:8px;}
+#calendar .txt_prepol span{background-color:#7F3483;  width:10px; height:10px; line-height:10px; display:inline-block;  margin-right:8px;} 
+
+
+/* Deposit Flow */
+#depositcc .step-title h3 {line-height:normal !important;}
+#depositcc .depositmainwrap{cursor:auto; border:none !important; padding:0 32px !important;}
+#depositcc .edit{font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;}
+
+/* Punch out*/
+.poSelection{width:100%; margin-top:0px;}
+.poTxtLbl .poStar{color:#ED1C24 !important;}
+.poSelection td.poSnug{padding-bottom:20px;}
+#ddlPObpInfocovCardExMonth,#ddlPObpInfocovCardExYr,#txtPObpInfocovZip{width:100px;margin-right:20px;}
+.tblPObpInfocovIsDebit{margin:15px 0;}
+#dvPObpInfocovAddSection{padding:10px 0;}
+#dvPObpInfocovCCOptions1{margin-top:20px;}
+.poTxtLbl,.poText .f12goth{font-weight:bold !important; text-align:left;}
+#txtPObpInfocovCName,#txtPObpInfocovLName,#txtPObpInfocovCardNumber,#txtPObpInfocovAddress,#txtPObpInfocovAddress2,#txtPObpInfocovCity{width:300px;}
+#ddlPObpInfocovCardType{width:180px;}
+#dvPObpInfocovUseAddress{background:#d2d3d4;padding:10px 10px 0 10px;font-weight:bold;height:auto;margin:10px 0 20px 40px;}
+#tblPObpInfocovIsDebit{margin:10px 0 15px 0;}
+#ddlPObpInfocovCardState{width:70px;}
+#dvPObpInfocovAddress{padding:0 !important;}
+#dvPObpInfocovProcess{height:40px;}
+#dvPObpInfocovProcess .selector{float:right;margin-right:200px;}
+table.poSelection td{/*width:50%;*/ padding-right:20px; text-align:right;}
+#dvPOServiceAddress table td,#dvPObpInfodtvcovServiceAddress table td{width:auto;}
+td.poTxtLbl{padding-bottom:5px;}
+#dvPOAddSection,#dvPObpInfodtvcovAddSection{padding:20px 0 10px}
+#ddlPOCardState,#ddlPObpInfodtvcovCardState{width:auto;min-width:80px;}
+#dvPOProcess table,#dvPObpInfodtvcovProcess table{margin:0 auto;}
+#dvPOProcess,#dvPObpInfodtvcovProcess{padding:10px 0;}
+#spPOAddress,#spPObpInfodtvcovAddress{width:90%;margin-left:20px;}
+#dvPOAddress,#dvPObpInfodtvcovAddress{margin-left:20px;padding-top:20px;}
+#dvPOServiceAddress,#dvPObpInfodtvcovServiceAddress{padding-bottom:10px;}
+.poTxtLbl .f12goth{font-weight:normal;}
+#txtPOcovdpabpInfomdpaCard1CVVCode{width:50px;}
+#dvPOcovdpabpInfomdpat1CVVSection .poPad10{height:auto;}
+#dvPOcovdpabpInfomdpaNewClass2 label.poInline{float:none;width:160px;}
+.poSelection input, .poSelection select {width:90%; float:left;} 
+#trPObpInfoAutoPayCCcovRequiredField .poTxtLbl {text-align:left; padding-top:20px;}
+.templatecss {padding:20px; background-color:#fff; margin-bottom:20px; border:2px solid #D2D3D4;}
+.templatecss .poStatusValue {color:#4A9A4D; }
+.POMsg{padding-top:0;}
+#dvPObpInfoAutoPayCCcovProcess .selector .poSnug .poBtn {margin-top:10px;}
+.poSelection table{width:100%;}
+.deposit_cc .poStatusValue { color:#4A9A4D; }
+
+.poSection tr:nth-child(3) td.poSnug .poText{width:50px;}
+.poSection tr:nth-child(2) td:nth-child(4) .poDdl{width:75px;}
+#divPCIDPATemp.templatecss table.poSelection td {text-align:left;}
+#divPCIDPATemp.templatecss table.poSelection td:nth-child(1) {width:50px;}
+#divPCIDPATemp.templatecss table.poSelection td:nth-child(2) {width:180px; text-align:right;}
+#divPCIDPATemp .poBtn{margin-left:270px;}
+
+#depositcc .LoadWindow {left:40%; padding:20px; border-width:3px; opacity:1;  }
+#depositcc .LoadWindow h3{line-height:normal !important; font-size:16px !important;}
+
+/* Overlay Listing UL LI*/
+ul.overlay_list {padding:0; margin:0}
+ul.overlay_list li{line-height: 20px;display: block;background-color: #F7F7F7;margin-bottom: 3px;padding: 5px 7px;}
+.contentSecWrap .content {border-bottom:1px solid #ccc; margin-bottom:20px; padding-bottom:10px;}
+
+/*Fios Overlay */
+.smbsprite_internetspeed{background:url(../Images/internet_speed.png) no-repeat;}
+.icon_starter{background-position:0 0px; height:50px;}
+.icon_quickfios{background-position:0px -65px; height:85px;}
+.icon_superfast{background-position:0px -165px; height:85px;}
+.icon_ultrafast{background-position:0px -265px; height:85px;}
+.icon_turbo{background-position:0px -362px; height:85px;}
+.icon_turbocharged{background-position:0px -460px; height:85px;}
+.icon_quick{background-position:0px -620px; height:60px;}
+.icon_fast{background-position:0px -686px; height:60px;}
+.icon_faster{background-position:0px -752px; height:60px;}
+.icon_fastest{background-position:0px -816px; height:60px;}
+
+.speedcompare .speedwrap .speedimg {width:60px; float:left;}
+.speedcompare .speedwrap {border-bottom:1px solid #ccc; margin-bottom:20px; padding-bottom:10px;}
+.speedcompare span.speedtxt{float:left; display:block; font-size:35px; line-height:35px;}
+.speedcompare .speeddetwrap {float:left;}
+.speedcompare .speeddetwrap.first {margin-right:20px;}
+.speedcompare .speeddetwrap span.text{font-size:12px; line-height:normal; margin-left:3px; width:60px; float:left;}
+.speedcompare .speedwrap .speeddetails .title{font-size:16px; font-weight:bold; margin-bottom:3px;}
+.speedcompare .speedwrap .speeddescription {width:100%;}
+.speedcompare .speedwrap .speedmatchlogo {float:left;}
+
+.speedcompare .starter_c{color:#97b800;}
+.speedcompare .quick_c{color:#fbba00;}
+.speedcompare .superfast_c{color:#f57014;}
+.speedcompare .ultrafast_c{color:#f23f19;}
+.speedcompare .turbo_c{color:#dc2622;}
+.speedcompare .turbocharged_c{color:#9d0800;}
+.speedcompare .speedwrap .ourbestoffer {border:3px solid #FFA800; margin-bottom:10px}
+.speedcompare .speedwrap .ourbestoffer p.offer{background-color:#FFA800; padding:3px; color:#fff; font-weight:bold;}
+.speedcompare .speedwrap .ourbestoffer .speedimg, .speedcompare .speedwrap .ourbestoffer .speeddescription {margin-left:20px;}
+
+.ftvequipOptions {width:100%; border-collapse:collapse;}
+.ftvequipOptions thead tr th{background-color:#E6E6E6; padding:10px; border:1px solid #ccc; text-align:left;}
+.ftvequipOptions tbody tr.titles td{background-color:#ECEDEE; padding:5px 10px; font-weight:bold; font-size:14px; width:33%; }
+.ftvequipOptions tbody tr td{border:1px solid #ccc; border-top:none; padding:5px 10px; text-align:center; background-color:#fff; width:33%;}
+.ftvequipOptions tbody tr.secQuestions td{text-align:left; padding:8px;}
+.ftvequipOptions tbody tr.alt td{background-color:#fff;}
+
+/* TV Viewing options */
+.tvviewing .tvpackagewrap {width:100%; border-collapse:collapse; margin-bottom:20px;}
+.tvviewing .tvpackagewrap tr td {padding:10px; border:1px solid #ccc; vertical-align:top; background-color:#fff; }
+.tvviewing .tvpackagewrap tr td p.title{font-weight:bold; margin-bottom:0;}
+.tvviewing .tvpackagewrap td.packinfo{width:40%; color:#fff;}
+.tvviewing .tvpackagewrap td.packinfo p.title {font-family:"VerizonApexBold",Arial,Helvetica,sans-serif; font-size:18px;}
+.tvviewing .tvpackagewrap td.packchannels{}
+.tvviewing .tvpackagewrap td.packfeatures{}
+.tvviewing .tvpackagewrap td.packfeatures p{margin-bottom:0;}
+
+.tvviewing .tvpackagewrap td.packinfo.fiostvlcl {background-color:#C49F39;}
+.tvviewing .tvpackagewrap td.packinfo.flexchoicehd {background-color:#006;}
+.tvviewing .tvpackagewrap td.packinfo.prefdhdhd {background-color:#73B9B0;}
+.tvviewing .tvpackagewrap td.packinfo.extremeehd {background-color:#3195A9;}
+.tvviewing .tvpackagewrap td.packinfo.ultimatehd {background-color:#3B73B0;}
+
+/* FiOS Custom TV Packs more info */
+.customtv_info .packwrap_table{width:100%; border:1px solid #ccc; border-collapse:collapse; background-color:#fff; margin-bottom:20px;}
+.customtv_info .packwrap_table tr td.packtitle {background-color:#d2d3d4; font-family:"VerizonApexBold",Arial,Helvetica,sans-serif; font-size:16px; padding:8px;}
+.customtv_info .packwrap_table tr td {padding:5px; vertical-align:top;}
+.customtv_info .packwrap_table tr td:first-child {width:25%;}
+
+
+a.overlayicon{font-size:12px;margin-top: 12px;}
+a.overlayicon span{ background:url(../Images/channel_logo_generic_small.png) no-repeat -35px -121px; width:13px; height:18px; display: inline-block;float: right;margin-left: 10px;margin-top: 1px;  }
+
+/* LOA page */
+#loa .step-title h3{line-height:normal !important;}
+#loa .loa_secwrap{margin-bottom:40px;}
+#loa .loa_secwrap .loa_title{font-family:VerizonApexBookItalic,Arial,Helvetica; color:#595a5d; font-size:20px; color:#333; margin-bottom:5px;}
+#loa .loa_secwrap label span.t_red {float:none;}
+#loa .loa_secwrap .loa_ci p span{display:block;}
+#loa h3{line-height:normal !important; margin-bottom:7px; font-family:VerizonApexMediumItalic !important; font-size:24px; color:#444!important;}
+#loa .sectionPadding {padding:0;}
+#loa .level2 {font-family:VerizonApexMediumItalic; font-size:21px;}
+#loa .loa_cont_wrapper > .step_content{border-bottom:1px solid #ccc; padding-bottom:20px;}
+#loa .loaDisclaimer {background-color:#ECEDEE; padding:20px;}
+#loa .tel .span3{width:11%;}
+#loa .tel .span4{width:15%;}
+
+/*Order Confirmation & Share Widget*/
+#secorderconfirmation .shareWidget{margin:15px 0 0 50px;padding:8px 10px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+#secorderconfirmation .shareWidget .f12{font-size:14px;}
+#secorderconfirmation .shareWidget .f16{font-size:18px !important;margin-bottom:5px;}
+#secorderconfirmation .orderNo,#sectionInstallation .serviceTxt,#sectionDisconnect .serviceTxt{font-size:16px;}
+#secorderconfirmation #sectionOrderNo h3{line-height:normal !important; font:24px/1.2 VerizonApexMediumItalic,Arial,Helvetica; color:#ED1C24; !important}
+#secorderconfirmation .step_content .sectionPadding {padding:20px 0;}
+#secorderconfirmation .tab-content .accordion {margin-bottom:none;}
+
+#secorderconfirmation  #getReadyforFiOS ul.list{margin:0 0 0 15px; padding:0;}
+#secorderconfirmation  #getReadyforFiOS ul.list li{list-style-type:none;}
+
+#secorderconfirmation .accordion-group.noborder .accordion-toggle{padding:2px 0 2px 0 !important;}
+#secorderconfirmation .accordion-group .accordion-body p,#reviewOrder #sectionOrdersummary .accordion-group .accordion-body p{margin-bottom:5px;}
+#secorderconfirmation .accordion-group .accordion-toggle .txt,#reviewOrder #sectionOrdersummary .accordion-group .accordion-toggle .txt{font-size:1.125em;color:#555;}
+#secorderconfirmation .accordion-group .accordion-toggle .txt,#sectionTOS .accordion-group .accordion-toggle .txt{font-size:22px; font-family:"VerizonApexBookItalic",Arial,Helvetica,sans-serif;color:#595a5d;}
+#secorderconfirmation .accordion-group .accordion-toggle .ico,#sectionTOS .accordion-group .accordion-toggle .ico{background:url(../Images/global_sprite_web_new.png) no-repeat 0px -344px;width:26px;height:26px;float:left;}
+#secorderconfirmation .accordion-heading {margin:0 -30px; padding:3px 30px; border-bottom:1px solid #ccc;}
+#secorderconfirmation .accordion-heading a{text-decoration:none;}
+#secorderconfirmation .accordion-group .accordion-toggle.collapsed .ico {float:right; background-position:0 -550px;}
+#secorderconfirmation .accordion-group .accordion-toggle .ico {float:right; background-position:0 -600px;}
+
+
+#sectionInstallation .serviceTxt span.t_grass,#sectionDisconnect .serviceTxt span.t_grass{font-weight:bold;}
+#sectionInstallation .pull-right,#sectionDisconnect .pull-right{margin:0 20px 0 40px;}
+#sectionWhatsnext .serviceTxt a{font:normal 16px/1.2 Arial,Helvetica;display:block;}
+#sectionStorePick .storeListGrid{margin:0;width:70%;}
+#sectionMailDelivery .pull-right,#sectionStorePick  .pull-right{margin:0 50px 0 30px;}
+.icon-rewards,.icon-myfios,.icon-fiosmobile{width:60px;height:60px;background:url(../Images/thank-you-icons-sprite_pc.png) no-repeat left top;display:block;}.icon-rewards{background-position:center -281px;}.icon-myfios{background-position:left -97px;}.icon-fiosmobile{background-position:left -194px;}.appGrid{background:url(../Images/app_updates_bg.jpg) no-repeat right center}.appLeft{width:66%;background:#ecedee;}.appGrid p{font-size:13px !important;line-height:1.4}.appGrid h5{padding-bottom:3px;font-size:18px;}
+
+/*Ordersummary accordian*/
+#secorderconfirmation .accordion-group,#sectionTOS .accordion-group{border:none;border-bottom:1px solid #ccc;margin:0;border-radius:0;}
+#secorderconfirmation .accordion-group .accordion-toggle,#secorderconfirmation .accordion-group .accordion-toggle:hover{padding:12px 10px 12px 0px;text-decoration:none; outline:none;}
+#sectionTOS .accordion-group .accordion-toggle,#sectionTOS .accordion-group .accordion-toggle:hover{padding:15px 10px 15px 0px;text-decoration:none;}
+#secorderconfirmation .accordion-group .accordion-inner,#sectionTOS .accordion-group .accordion-inner{border:none;padding-top:0;color:#333;padding-bottom:15px; padding-left:0; padding-right:0;}
+#secorderconfirmation .accordion-inner .arGrid{font-size:1.063em;padding-bottom:5px;}
+#secorderconfirmation .accordion-inner .span10 .t_grass{padding-left:20px;}
+#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-toggle .ico, #sectionTOS .accordion-group .accordion-toggle .ico{background:url(../Images/global_sprite_web_new.png) no-repeat 0px -344px;width:25px;height:25px;float:left;}
+#sectionTOS .accordion-group .accordion-toggle .ico{background-position:0px -349px;}
+#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-toggle.collapsed .ico{background-position:0px -394px;}
+#sectionTOS .accordion-group .accordion-toggle.collapsed .ico{background-position:0px -399px;}
+#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-toggle .price,#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-toggle .txt,#sectionTOS .accordion-group .accordion-toggle .txt{font:bold 18px/1.8 VerizonApexBook,Arial,Helvetica;color:#444;padding-left:5px;  }
+#sectionTOS .accordion-group .accordion-toggle .txt{font-weight:normal}
+#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-toggle .price{float:right;display:none;}
+#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-toggle.collapsed .price{display:block;}
+#secorderconfirmation #checkoutOdrSummry .accordion-group .accordion-body,#sectionTOS .accordion-group .accordion-body{}#sectionTOS .accordion-group .accordion-body p{font-size:14px;}
+#secorderconfirmation .tab-content {width:100%; cursor:auto;}
+#secorderconfirmation .tab-content p{margin-bottom:5px;}
+#secorderconfirmation .tab-content .tab-pane.active{background:transparent; overflow-x:hidden;}
+#secorderconfirmation .tab-content .row-fluid [class*="span"]{min-height:10px;}
+#secorderconfirmation .accordion-group.noborder .accordion-toggle{padding:0 !important}
+#secorderconfirmation .accordion-heading{position:relative;}
+#secorderconfirmation .accordion-heading .changeLink,.changeLinkInline{background: url(../Images/change_icon.png) no-repeat left -125px;display:inline-block;padding-left:30px;line-height:24px;margin-left:30px;}
+#secorderconfirmation .accordion-heading .changeLink{position:absolute;top:14px;left:25%;margin-left:0;}
+#secorderconfirmation #checkoutOdrSummry .accordion-heading {border-bottom:none;}
+
+
+#secorderconfirmation .accordion-group #sectionOrdersummary .accordion-inner {padding-left:30px;}
+#secorderconfirmation .tab-content .tab-pane .row-fluid .span10 p span{font-size:16px;}
+
+
+.OsHeader{position:relative;}.OsLinks{float:right;padding-top:10px;}
+.socLink{float:right;width:220px;}.socLink a{font:normal 14px/1.2 VerizonApexBookItalic;width:180px;float:left;padding-left:5px;}.socLink .socIcon{width:32px;float:left;}
+.mRewards{float:right;width:215px;padding-left:15px;margin-left:10px;border-left:1px solid #ccc;}.mRewards .rwdTxt{font:normal 14px/1.2 VerizonApexBookItalic;width:175px;float:left;padding-left:10px;color:#5a595d;}.mRewards .rwdTxt span{font-family:VerizonApexMediumItalic;}.mRewards .rwdIcon{width:26px;float:left;}
+.wfgBanner{float:right;width:155px;padding-left:10px;margin-left:10px;border-left:1px solid #ccc;position:relative;}
+.wfgBanner img{width:150px;margin-top:-2px;}.wfgBanner .lTxt{position:absolute;color:#2E67B2;font-size:11px;top:26px;left:72px;}
+.socLinkBottom{width:420px;padding-bottom:6px;}.socLinkBottom a{font-weight:bold;line-height:1.2}.socLinkBottom .socIcon{width:26px;margin-top:-4px;}
+.socLinkBottomSpacer {height: 10px;}
+
+
+/* Save Order */
+#SavedOrder .headerDiv h3{float:left;font:normal 28px/1.1 VerizonApexMediumItalic,Arial,Helvetica;margin:0;padding:0;color:#666;margin-top:20px;}#FastPass .headerDiv h3.f24{font-size:24px;margin-bottom:20px;}
+#SavedOrder .headerDiv h3.fp{border-right:2px solid #ccc;padding-right:18px;margin-right:18px;display:block;width:60px;background:url(../Images/ico_saveorder.png) no-repeat left top;text-indent:-999px;height:48px;}
+#SavedOrder .headerDiv .subHead{font-size:20px;line-height:normal;padding-top:20px;}
+#SavedOrder .headerDiv .subHead.landing{font-size:16px;font-weight:bold;color:#5a595d;padding-top:0px;}
+#SavedOrder h4{font:normal 18px/1.2 VerizonApexMedium;padding:0;margin-top:15px;}#SavedOrder h4 span {color:#ed1c24;font-family:VerizonApexBold;text-transform:uppercase;}
+#SavedOrder h5{font:normal 22px/1.25 VerizonApexBold,Arial,Helvetica;color:#555;padding:0;margin:0 0 10px 0;}
+#SavedOrder h5 span{color:#ed1c24}
+#SavedOrder .fpAddress,#SavedOrder .fpEmail{width:350px;}#SavedOrder .fpZip{width:100px;}#SavedOrder .fpNumber{width:225px;}
+#SavedOrder .tickBullet{margin:0;padding:0;}
+#SavedOrder .tickBullet li{list-style-type:none;background:transparent url(../Images/global_sprite.png) no-repeat 0 -1198px;font-size:16px;padding-left:30px;color:#555;padding-bottom:8px;}
+#SavedOrder .liSub{padding-left:40px;font-size:1em;color:#666;}
+#SavedOrder .dataField{padding:30px 0;}#SavedOrder .dataField p{font-size:16px;}
+#SavedOrder .Confirmation .dataField{padding-top:20px;}#SavedOrder .Confirmation .dataField .btn{margin-top:30px;}
+#SavedOrder .dataField p.t_charcoal{font-size:13px;}
+#SavedOrder .dataField p.confirm{font-size:14px;color:#666;}#SavedOrder .dataField p .header{font:normal 18px VerizonApexBold,Arial,Helvetica;}
+#SavedOrder .dataField .span1 img{max-width:75%;}
+#SavedOrder .retrieveOrder .span11 label.radio,#SavedOrder p.subHead{font-size:16px;}#SavedOrder .sectionPadding{min-height:400px;}#SavedOrder .sectionPadding.freeFlow{min-height:0;}
+
+
+
+
+/* SSB Page */
+#ssb .row-fluid [class*="span"]{ margin-left: 3.59766%; } #ssb .row-fluid [class*="span"]:first-child{ margin-left:0; }
+#ssb .row-fluid .span4 { width: 30.915%;  }
+#ssb .row-fluid .span8 { width: 65.457%; }
+#ssb ul.bundles{ margin:0 ;padding:0; }
+#ssb ul.bundles li{ width:300px; display:block; float:left; margin-left:40px;  } #ssb ul.bundles li ul li{ width:auto; float:none; display:inline-block; margin:auto; list-style:circle !important; line-height:18px;   }
+#ssb ul.bundles li ul{ margin:0; padding:0; }
+#ssb ul.bundles li:first-child{ margin-left:0; }
+#ssb .products{ min-height:150px;}
+#ssb .plans .sm_box{color: #FFF; width:100%;position: absolute;top: -27px;left: -2px;font-size: 12px;font-weight: bold;}
+#ssb .plans .sm_box p{ margin:0px; padding: 3px 10px 2px 10px; display:inline-block;  }
+#ssb .plans .sm_box.selected{background-image: url("../Images/selected-bg.jpg"); background-repeat:no-repeat; background-position:right top; background-color:#4A9A4D;}
+#ssb .plans .sm_box.upgrade{background-image: url("../Images/more-bg.jpg"); background-repeat:no-repeat; background-position:107% top; background-color:#86878A;}
+#ssb .plans .sm_box.add{background-image: url("../Images/add-bg.jpg"); background-repeat:no-repeat; background-position:right top; background-color:#595A5D;}
+
+#ssb .plans{position:relative;padding:20px 15px;}
+#ssb .plans h3{ color:#595A5D;}
+#ssb .plans .plantitle{ padding-bottom:15px; margin-bottom:15px; min-height:50px; }
+#ssb .plans .plantitle h2{ line-height:1.2em; }
+#ssb ul.txt_offer{ margin-bottom:0; }
+#ssb .icon{padding:0 7px; float:left;}
+#ssb .getstart{ font-size:12px; float:none; width:100% !important; height:59px; line-height:normal !important; }
+#ssb .getstart .rate{ margin:0 auto; }
+#ssb .plans{border:2px solid #D2D3D4;padding:20px 15px;background:#FFF;color:#333; margin-bottom:1px;}
+#ssb .plans h3, #ssb .prod_insight h3, #ssb .prod_includes h3{font-size:14px;font-family:VerizonApexMediumItalic; color:#595A5D;}
+#ssb .plans h4, #ssb .prod_insight h4, #ssb .prod_includes h4{font-size:15px;font-family:VerizonApexMediumItalic;color:#595A5D;padding:9px 0px;margin:0px;}
+#ssb .desc{float:left;margin-left:10px;max-width:195px;}
+#ssb .desc h3{margin:0px 0px 5px; font-size:15px;}
+
+#ssb .prod_insight{position:relative; border:2px solid #D2D3D4; border-bottom-width:1px; border-top-width:1px; padding:0px 15px 10px 15px;background:#E9F4FE;}
+#ssb .prod_includes{position:relative;margin-bottom:20px; border:2px solid #D2D3D4; border-top-width:1px;padding:0px 15px 20px 15px;background:#F7F7F7;}
+#ssb ul.bundles li .prod_includes ul {margin:0; padding:0;}
+#ssb ul.bundles li .prod_includes ul li {padding-left:15px; background:url(../Images/icon_bullet.png) left 6px no-repeat; }
+#ssb .prod_insight .txt_offer.bdrb p{font-family:"VerizonApexBold",Arial,Helvetica,sans-serif;font-weight:normal !important; font-size:1.2em;}
+#ssb .prod_insight .txt_offer.bdrb p span{display:block; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:14px;}
+
+#ssb .prod_insight a.saving-trigger { display:block; float:right; font-size:12px; margin-top:12px;}
+#ssb .prod_insight a.saving-trigger span{ background:url(../Images/channel_logo_generic_small.png) no-repeat -35px -121px; width:13px; height:18px; display: inline-block;float: right;margin-left: 10px;margin-top: 1px;  }
+
+#ssb .bundles.accordion-toggle { background-color:#ECEDEE; border-bottom:#D2D3D4 solid 2px; background-image:url("../Images/prod_deatilsbg.jpg"); background-repeat:no-repeat; background-position:top center; display:block; padding:20px 15px 12px 15px; font-family:VerizonApexMediumItalic; font-size:15px; color:#3B73B0; text-decoration:none; line-height:29px;  }
+
+#ssb .bundles.accordion-toggle span.toggle{ background:url(../Images/accordian-minus.png) no-repeat; width:30px; height:30px; display:block; float:left; margin-right:10px; }
+#ssb .bundles.accordion-toggle.collapsed span.toggle{ background:url(../Images/accordian-plus.png) no-repeat;}
+#ssb  #Bundles.holder { margin-top:35px; }
+
+
+/* SSB Non Do Page */
+
+#ssb .plans.recommend{ border-color:#ED1C24;  }
+#ssb .plans .sm_box.recommended{background-image: url("../Images/recommend-opt.png"); background-repeat:no-repeat; background-position:right top; width:130px;}
+
+.nondo.step{ border:#ECEDEE solid 2px; background-color:#ffffff; margin-bottom:20px; cursor:pointer; padding:0px 30px; }
+.nondo .step-title{ padding:20px 0px 10px 0px; min-height: 35px; color:#86878A; font:normal 24px/1.2px VerizonApexBookItalic,Arial,Helvetica; line-height:26px; color:#333333; }
+.nondo .step-title p{ margin:0; }
+.nondo .step-title p.hint{ font-size:16px; color:#4A9A4D; }
+.nondo .step_cont_wrapper{ border-top:#D2D3D4 solid 1px; }
+.nondo .step_content{ padding:20px 0px 0px 0px; }
+.nondo .step-footer{ padding:20px 25px; border-top:#D2D3D4 solid 1px;}
+.nondo.step h3{ margin-bottom:0; color:#86878A; font:normal 20px/1.2px VerizonApexBookItalic,Arial,Helvetica; }
+.nondo.step.active h3 { font:normal 24px/1.2px VerizonApexBook,Arial,Helvetica; color:#333333; }
+.nondo.step h3 span.no{ font:normal 28px VerizonApexBook,Arial,Helvetica; padding-right:10px; }
+.nondo.step.active{ border:#D2D3D4 solid 2px; cursor:default !important ; }
+.nondo.step.active h3,.nondo .step.active h3 span.no{ color:#333333; }
+.nondo.step h3.level2 { margin:0px 0px 15px 0px !important;  font:normal 20px VerizonApexBookItalic,Arial,Helvetica;  }
+
+#ssb .nondo .service_options{ padding-top:20px; padding-bottom:20px; border-bottom:#d2d3d4 solid 1px; border-top:#d2d3d4 solid 1px; }
+#ssb .nondo .service_options .span3{ width:22%; }
+#ssb .nondo .service_options .span3 label{ margin-left: 3.59766%; }
+#ssb .nondo .services{ padding-bottom:10px; padding-top:10px; }
+#ssb .nondo .services .span4 .service_title{ font-family:VerizonApexMedium; font-size:21px; float:left; margin-left:5px; }
+
+
+
+/* DO LQ Overlays */
+#standalone_availability .smblqresults {margin-bottom:0px;}
+#standalone_availability .smblqresults > div {margin-top:20px;}
+#standalone_availability .smblqresults .bonus_wrap {width:150px; margin-left:15px; margin-top:10px;}
+#standalone_availability .smblqresults .bonus_wrap .span8 p{line-height:14px; margin-bottom:0;}
+#standalone_availability .smblqresults .bonus_wrap .span2 img{max-width:auto;}
+#standalone_availability .smblqresults .bonus_wrap .span10 {padding-left:30px;}
+#standalone_availability .smblqresults .bonus_wrap .span10 p{line-height:15px;}
+#standalone_availability .smblqresults .bonus_wrap .span2 img{max-width:200% !important;}
+#standalone_availability .smblqresults .bonus_wrap .span10 {padding-left:30px;}
+#standalone_availability .smblqresults .bonus_wrap .span10 p{line-height:15px;}
+
+#standalone_availability .smblqresults ul.list {margin:0; padding:0;}
+#standalone_availability .smblqresults ul.list li {list-style-type:none; margin-bottom:5px;}
+#standalone_availability .smblqresults ul.list li a{font-weight:bold;}
+#standalone_availability .smblqresults .otheravbleservices {margin-right:20px;}
+#standalone_availability .smblqresults .avbleservice .serviceavble .bundle_img {text-align:right;}
+#standalone_availability .smblqresults .avbleservice .serviceavble .bundle_img img {float:right;}
+
+#standalone_availability .smbupsell_wrap {background: #d2d3d4; /* Old browsers */
+background: -moz-linear-gradient(top,  #d2d3d4 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d3d4), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d2d3d4 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d2d3d4 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d2d3d4 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d2d3d4 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d3d4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+/*changes made Santhosh start*/
+#standalone_availability .bundlelqresults .lqaddress span{font-size:14px !important; padding-left:20px;}
+#standalone_availability .smbbunlelqresults ul.list {margin:0; padding:0;}
+#standalone_availability .smbbunlelqresults ul.list li {list-style-type:none; margin-bottom:5px;}
+#standalone_availability .smbbunlelqresults ul.list li a{font-weight:bold;}
+
+#standalone_availability .bundleavbleservices {margin:0 0 10px 0;}
+#standalone_availability .smbbundleupsell_wrap {background: #d2d3d4; /* Old browsers */
+background: -moz-linear-gradient(top,  #d2d3d4 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2d3d4), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d2d3d4 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d2d3d4 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d2d3d4 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d2d3d4 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d3d4', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#standalone_availability .smbbundleupsell_wrap .upselrightcol {border-left:1px solid #ccc; margin-left:15px; padding-left:20px;}
+#standalone_availability .smbbundleupsell_wrap .bonus_wrap { }
+#standalone_availability .smbbundleupsell_wrap .bonus_wrap .span10 p{line-height:14px; padding-top:5px;}
+
+
+/*changes made Santhosh - end*/ 
+
+/* LBO*/
+#lbo .title_wrap.ladyimage{background:#d7d7d7 url(../Images/gbordering_img1.png) right top no-repeat; height:170px;}
+#lbo .lbo_techwrap {margin-left:0 !important;}
+#lbo .title_wrap.bundle{background:#d7d7d7 url(../Images/ico_fiosdoubleplayphone.png) 90% center no-repeat;}
+#lbo .txt_wrap {width:60%;}
+#lbo .title_wrap.bundle .txt_wrap{width:50%;}
+
+
+/* SSB Carousel*/
+.bundleCarousel {position:relative;}
+.bundleCarousel .frame{margin:0 auto;width:100%;text-shadow:none;min-height:202px;}
+.bundleCarousel .frame ul{list-style:none;margin:0;padding:0;display:block;}
+
+.bundleCarousel .scrollbar{margin-top:5px;width:100%;line-height:0;height:10px;position:relative;background:#ecedee;}
+.bundleCarousel .scrollbar .handle{width:100px;height:8px;background:#fff;cursor:pointer;position:absolute;top:1px;background:#808080;color:#1c94c4;outline:none;}
+.bundleCarousel .scrollbar .handle .mousearea{position:absolute;top:-9px;left:0;width:100%;height:20px;}
+.bundleCarousel .controls{position:absolute;z-index:1000;width:100%;top:175px;left:0px;}
+
+.bundleCarousel .controls .divider{display: inline-block;margin:0 10px;}
+.bundleCarousel .controls button{line-height:32px;vertical-align:middle;}
+.bundleCarousel .controls button i{position:relative;top:-2px;margin:5px;padding:0;font-size:32px;vertical-align:middle;}
+.bundleCarousel .controls a{width:43px;height:57px;cursor:pointer;position:absolute;display:block;}
+.bundleCarousel .controls a.prev{background:url(../Images/controlsbig.png) no-repeat 0 0;left:-55px;}
+.bundleCarousel .controls a.next{background:url(../Images/controlsbig.png) no-repeat -64px 0;right:-55px;}
+.bundleCarousel .controls a.prev.disabled,.channelCarousel .controls a.prev.disabled:hover{cursor:default;background-position:0px -69px;}
+.bundleCarousel .controls a.next.disabled,.channelCarousel .controls a.next.disabled:hover{cursor:default;background-position:-64px -69px;}
+.csstransforms3d .frame{-webkit-perspective:800px;-ms-perspective:800px;perspective:800px;-webkit-perspective-origin:50% 50%;-ms-perspective-origin:50% 50%;perspective-origin:50% 50%;}
+.csstransforms3d .frame ul{-webkit-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;}
+.bundleCarousel .shadowL{background:transparent url(../Images/byob_shadowL.png) repeat-y left top;width:16px;position:absolute;left:0px;top:25px;min-height:382px;z-index:10;opacity:.4;filter:alpha(opacity=4);}
+.bundleCarousel .shadowR{background:transparent url(../Images/byob_shadowR.png) repeat-y left top;width:16px;position:absolute;top:25px;right:0;min-height:382px;z-index:10;opacity:.4;filter:alpha(opacity=4);}
+
+.customizeCarousel {position:relative;}
+.customizeCarousel .frame{margin:0 auto;width:100%;text-shadow:none;min-height:150px;}
+#premiumChannels .tab-content { overflow:visible; padding:20px 0px; }
+#premiumChannels .tab-content .customizeCarousel .frame { min-height:130px; }
+#DataEquipment .customizeCarousel .frame{ min-height:160px; }
+#tv_plan .customizeCarousel .frame{ min-height:150px; }
+
+.customizeCarousel .frame ul{list-style:none;margin:0;padding:0;display:block;}
+.customizeCarousel .scrollbar{margin-top:0px;width:100%;line-height:0;height:10px;position:relative;background:#ecedee;border-top:3px solid #fff}
+.customizeCarousel .scrollbar .handle{width:100px;height:8px;background:#fff;cursor:pointer;position:absolute;top:1px;background:#808080;color:#1c94c4;outline:none;}
+.customizeCarousel .scrollbar .handle .mousearea{position:absolute;top:-9px;left:0;width:100%;height:20px;}
+.customizeCarousel .controls{position:absolute;z-index:1000;width:100%;top:40px;left:0px;}
+.customizeCarousel .controls .divider{display: inline-block;margin:0 10px;}
+.customizeCarousel .controls button{line-height:32px;vertical-align:middle;}
+.customizeCarousel .controls button i{position:relative;top:-2px;margin:5px;padding:0;font-size:32px;vertical-align:middle;}
+.customizeCarousel .controls a{width:43px;height:57px;cursor:pointer;position:absolute;display:block;}
+.customizeCarousel .controls a.prev{background:url(../Images/controlsbig.png) no-repeat 0 0;left:-60px;}
+.customizeCarousel .controls a.next{background:url(../Images/controlsbig.png) no-repeat -64px 0;right:-60px;}
+.customizeCarousel .controls a.prev.disabled,.channelCarousel .controls a.prev.disabled:hover{cursor:default;background-position:0px -69px;}
+.customizeCarousel .controls a.next.disabled,.channelCarousel .controls a.next.disabled:hover{cursor:default;background-position:-64px -69px;}
+.customizeCarousel .shadowL{background:transparent url(../Images/byob_shadowL.png) repeat-y left top;width:16px;position:absolute;left:0px;top:0px;min-height:124px;z-index:10;opacity:.4;filter:alpha(opacity=4);}
+.customizeCarousel .shadowR{background:transparent url(../Images/byob_shadowR.png) repeat-y left top;width:16px;position:absolute;top:0px;right:0;min-height:124px;z-index:10;opacity:.4;filter:alpha(opacity=4);}
+#DataEquipment .customizeCarousel .shadowL, #DataEquipment .customizeCarousel .shadowR{ min-height:135px; }
+
+.bg_lite { background-color:#F7F7F7; }
+/* channel TAB */
+#premiumChannels .nav-tabs,.sectionVasipTab .nav-tabs{background:#ecedee url(../Images/tabnav_greybkg.png) repeat-x left top;border:0;min-height:58px;height:auto;margin:0;border-left:1px solid #d2d3d4;}
+#premiumChannels .nav-tabs > li, #premiumChannels .nav-tabs > li.active,.sectionVasipTab .nav-tabs > li,.sectionVasipTab .nav-tabs > li.active{margin:0;display:block;}
+#premiumChannels .nav-tabs > li,.sectionVasipTab .nav-tabs > li{border-left:1px solid #fff;border-right:1px solid #ccc;}
+#premiumChannels .nav-tabs > li.active,.sectionVasipTab .nav-tabs > li.active{border-top:2px solid #ED1C24;}
+#premiumChannels .nav-tabs > li a,.sectionVasipTab .nav-tabs > li a{border-radius:0;padding:25px 30px 17px 15px;border:0;margin:0;display:block;text-align:center;color:#5a595d;border-right:none !important;font:normal 14px/1 VerizonApexMedium;text-transform:uppercase;}
+#premiumChannels .nav-tabs > li.active > a, #premiumChannels .nav-tabs > li.active > a:hover, #premiumChannels .nav-tabs > li.active > a:focus,.sectionVasipTab .nav-tabs > li.active > a,.sectionVasipTab .nav-tabs > li.active > a:hover,.sectionVasipTab .nav-tabs > li.active > a:focus{border:0;background:#FFFFFF;color:#ED1C24;min-height:0px;padding-top:23px;padding-bottom:19px;}
+#premiumChannels .nav-tabs > li > a:hover, #premiumChannels .nav-tabs > li > a:focus,.sectionVasipTab .nav-tabs > li > a:hover,.sectionVasipTab .nav-tabs > li > a:focus{color:#ED1C24;min-height:0px;background:none;}
+#premiumChannels .nav-tabs > li{position:relative;width:16.5%;}.sectionVasipTab .nav-tabs > li > a,.sectionVasipTab .nav-tabs > li > a:hover,.sectionVasipTab .nav-tabs > li > a:focus,.sectionVasipTab .nav-tabs > li > a:active,.sectionVasipTab .nav-tabs > li.active > a,.sectionVasipTab .nav-tabs > li.active > a:active,.sectionVasipTab .nav-tabs > li.active > a:focus,.sectionVasipTab .nav-tabs > li.active > a:hover{position:relative;height:56px;padding:0;}.sectionVasipTab .nav-tabs > li > a span{position:absolute;display:block;bottom:5px;text-align:center;width:100%;}
+
+
+#customize #dvEquipmentWrapper .edit_area { padding:20px 0px; background-color:#ffffff; }
+#customize #dvEquipmentWrapper .edit_area .customizeCarousel .frame { min-height:150px; }
+/*#tv_equipment.customizeCarousel .controls a, .editareaCarousel .controls a{width:34px;height:44px;cursor:pointer;position:absolute;display:block;}
+#tv_equipment.customizeCarousel .controls a.prev, .editareaCarousel .controls a.prev{background:url(../Images/controls.png) no-repeat -5px 0;}
+#tv_equipment.customizeCarousel .controls a.next, .editareaCarousel .controls a.next{background:url(../Images/controls.png) no-repeat -58px 0;}
+#tv_equipment.customizeCarousel .controls a.prev.disabled,.channelCarousel .controls a.prev.disabled:hover, .editareaCarousel .controls a.prev.disabled,.editareaCarousel .controls a.prev.disabled:hover{cursor:default;background-position:-5px -50px;}
+#tv_equipment.customizeCarousel .controls a.next.disabled,.channelCarousel .controls a.next.disabled:hover, .editareaCarousel .controls a.next.disabled,.editareaCarousel .controls a.next.disabled:hover{cursor:default;background-position:-58px -50px;}
+#tv_equipment.customizeCarousel .controls, #customize .editareaCarousel .controls{ top: -64px; right: 0px; left:auto; width: 75px; }
+#tv_equipment.customizeCarousel .controls a.next, #customize .editareaCarousel .controls a.next { right:0px; }
+#tv_equipment.customizeCarousel .controls a.prev, #customize .editareaCarousel .controls a.prev { left:0px;}*/
+
+#btn-pvTOScontinue{ float:right; }
+
+.editareaCarousel {position:relative; margin-top:30px;}
+.editareaCarousel .frame{margin:0 auto;width:100%;text-shadow:none;min-height:150px;}.editareaCarousel .frame p{ line-height:14px; }
+.editareaCarousel .frame ul{list-style:none;margin:0;padding:0;display:block;}
+.editareaCarousel .scrollbar{margin-top:5px;width:100%;line-height:0;height:10px;position:relative;background:#ecedee;border-top:3px solid #fff}
+.editareaCarousel .scrollbar .handle{width:100px;height:8px;background:#fff;cursor:pointer;position:absolute;top:1px;background:#808080;color:#1c94c4;outline:none;}
+.editareaCarousel .scrollbar .handle .mousearea{position:absolute;top:-9px;left:0;width:100%;height:20px;}
+.editareaCarousel .controls{position:absolute;z-index:1000;width:100%;top:40px;left:0px;}
+.editareaCarousel .controls .divider{display: inline-block;margin:0 10px;}
+.editareaCarousel .controls button{line-height:32px;vertical-align:middle;}
+.editareaCarousel .controls button i{position:relative;top:-2px;margin:5px;padding:0;font-size:32px;vertical-align:middle;}
+.editareaCarousel .controls a{width:43px;height:57px;cursor:pointer;position:absolute;display:block;}
+.editareaCarousel .controls a.prev{background:url(../Images/controlsbig.png) no-repeat 0 0;left:-65px;}
+.editareaCarousel .controls a.next{background:url(../Images/controlsbig.png) no-repeat -64px 0;right:-65px;}
+.editareaCarousel .controls a.prev.disabled,.channelCarousel .controls a.prev.disabled:hover{cursor:default;background-position:0px -69px;}
+.editareaCarousel .controls a.next.disabled,.channelCarousel .controls a.next.disabled:hover{cursor:default;background-position:-64px -69px;}
+.editareaCarousel .shadowL{background:transparent url(../Images/byob_shadowL.png) repeat-y left top;width:16px;position:absolute;left:0px;top:0px;min-height:120px;z-index:10;opacity:.4;filter:alpha(opacity=4);}
+.editareaCarousel .shadowR{background:transparent url(../Images/byob_shadowR.png) repeat-y left top;width:16px;position:absolute;top:0px;right:0;min-height:120px;z-index:10;opacity:.4;filter:alpha(opacity=4);}
+
+/* Selected Equipment modified on Aug 07*/
+.equip_selected_view{ margin-bottom:3px; }
+.equip_selected_view a{ font-size:12px; font-weight:bold;  }.equip_selected_view a.trash,.equip_selected_view a.edit{ margin: 15px 5px 0px 20px;display: inline-block; }
+.equip_selected_view h3.title{font:normal 16px VerizonApexBookItalic,Arial,Helvetica !important; padding:15px;margin:0px; line-height:10px;}
+.equip_selected_view .row-fluid .span5 p, .equip_selected_view .row-fluid .span7 p{ margin:15px 0px 0px 10px; }
+.equip_selected_view .row-fluid [class*="span"] { background-color:#ECEDEE;   margin-left: 3px;    margin-bottom: 0%;    min-height: 53px;}
+.equip_selected_view .row-fluid .span2 {    width: 13.5599%;}.equip_selected_view .row-fluid .span5 {    width: 48.291%;}
+.equip_selected_view .row-fluid .span2, .equip_selected_view .row-fluid .span3 { background-color:#f7f7f7;    }
+.equip_selected_view.first_eq .row-fluid .span5 {    width: 62.291%;}
+.equip_selected_view .row-fluid .span7{ width:62.282%; }.equip_selected_view .row-fluid .span8{ width:71.6%;  }
+.channelhead.equip_selected_view.first_eq .row-fluid .span8 { width:85.6%;  }
+.channelhead.equip_selected_view .row-fluid .span8 { width:71.4%;  }
+.channelhead.equip_selected_view .row-fluid .span8, .channelhead.equip_selected_view .row-fluid .span2 { background-color:#E6E6E6 ; }
+.channelhead.equip_selected_view .row-fluid .span2 { border-left:#f7f7f7 solid 3px; }
+.row-fluid [class*="span"]:first-child { margin-left:0;    }
+.equip_selected_view .tv_equip_icon{ width:65px; float:left; margin-right:10px; }
+a.edit span, a.close_lnk span{ line-height:20px;  }a.edit img, a.close_lnk img  { float:right; margin-right: 5px; }
+ .channelhead{background: #E6E6E6;  min-height: 45px;height: auto;margin: 3px 0px 0px 0px;display:block;}
+ .channelhead h3.title{font:normal 16px VerizonApexBookItalic,Arial,Helvetica !important; padding:15px;margin:0px; line-height:10px;}
+
+  /* Sticky Header */
+ .sticky .headerbar{left:0;position:fixed;z-index:1001;top:0;width:100%;box-shadow: 0 2px 4px rgba(0, 0, 0, .1);}
+.sticky .navbar .brand img{width:156px;}
+.sticky .headerbar .navbar .headerIcons{top:40px;}
+.sticky .headerbar .pBarContainer{margin-bottom:0;}
+.clearLoc { display:inline-block; padding:5px 10px;}
+
+
+/* Spring HD */
+.springHD .springBox{border:2px solid #d2d3d4;background:#fff;padding:15px;cursor:pointer;color:#333;}
+.springHD .springBox.selected{border:2px solid #3195A9;background:#3195A9; color:#ffffff !important; padding:15px;cursor:default;}.springHD .customizeQA span.txt{font:normal 16px/1.2 VerizonApexBookItalic;}.springHD .customizeQA span{font:normal 16px/1.2 VerizonApexMedium;}
+.springHD .springBox.selected a, .springHD .springBox.selected a:hover, .springHD .springBox.selected .sPrice{ color:#ffffff !important; }
+.springHD .springBox .selected_carrot { background:url(../Images/corner_grey.png) no-repeat; width:14px; height:14px; position:absolute; right:-2px; top:-2px; }
+.springHD .springBox .selected_carrot{display:none;}.springHD .springBox.selected .selected_carrot{display:block;}
+#sectionCustomize .springHD h3{display:block;font:normal 20px VerizonApexMedium;color:#5a595d;padding:12px 20px;background:#f7f7f7;margin:0 20px;}
+.springHD ul{list-style:none;margin:0;padding:0px;display:block;}.springHD ul li{float:none;margin:12px 0 0 0;padding:0;position:relative;}.springHD .springBox,.springHD .springBox.selected{min-height:76px;padding:5px;position:relative;cursor:default;}.springHD .springBox .sTitle{font:normal 18px VerizonApexMediumItalic; margin-top:10px;}.springHD .springBox .sDesc{font:normal 14px VerizonApexBook;padding-top:3px;}.springHD .springBox .prettycheckbox{margin:25px 0 0 10px;}.springHD .springBox .sLink{margin:30px 10px 0;}.springHD .springBox .sInc,.springHD .springBox .sBaseInc,.springHD .springBox .sPrice{font:normal 16px VerizonApexBold;padding-top:3px;}.springHD .springBox .sLogo{height:76px;background:url(../Images/spring_sprite_pc.png) no-repeat center top;}.springHD .springBox .sLogo.lifestyle{background-position:center 0;}.springHD .springBox .sLogo.entertainment{background-position:center -80px;}.springHD .springBox .sLogo.newsinfo{background-position:center -160px;}.springHD .springBox .sLogo.popculture{background-position:center -240px;}.springHD .springBox .sLogo.kids{background-position:center -320px;}.springHD .springBox .sLogo.sports{background-position:center -400px;}.springHD .springBox .sLogo.sportsenhanced{background-position:0 -480px;}.springHD .springBox .sLogo.basechannels{background-position:0 -560px;}.springPop{background:#fff;border:2px solid #d2d3d4;width:75%;min-height:180px;position:absolute;border-bottom:2px solid #7F3483;z-index:100;right:26px;top:70px;box-shadow:0 0 10px rgba(0,0,0,0.2);}.springPop .popArrow{width:32px;height:20px;margin:-19px 30px 0 0;float:right;}.springPop .popClose{width:14px;height:14px;}.springPop .popHeader{font:normal 22px/1 VerizonApexMedium;padding-bottom:20px;}.springPop .popContent ul{list-style-type:disc;margin:0 10px;padding:0px;}.springPop .popContent ul li{float:left;width:33%;margin:0}.springPop .popContent p{clear:both;padding-top:5px;color:#5a595d;font-size:12px;margin:0;}
+#lblPromotion div{padding:6px 0 0 33px !important;}#lblPromotion div strong{color:#4A9A4D !important;}
+.springHD .springBox .prettycheckbox {    margin: 25px 0px 0px 10px !important;}
+.springHD .row-fluid .span3 { width: 18.077%; }
+.springHD .row-fluid .span3.insight { text-align:right; padding-top:23px; padding-right:10px;    }
+.springHD .row-fluid .span5 { width: 50.171%;}
+/*Modal Window Skin*/
+.modal{border:3px solid #aaa;background:#fff;width:900px;margin-left:-450px;}
+.modal-header{border-bottom:1px solid #aaa;position:relative;padding:15px;}
+.modal-header .close{background:url(../Images/global_sprite_web_new.png) no-repeat scroll 0 -498px;display:block;height:32px;width:32px;margin-top:3px;opacity:1;filter:alpha(opacity=100);float:none;position:absolute;right:10px;top:10px;}.modal-header .close:focus,.modal-header .close:active{outline:thin dotted #999 !important;}
+.modal-header h3{font:22px/1.2 VerizonApexBook,Arial,Helvetica !important;text-align:center;text-transform:uppercase;margin:0;}
+.modal-footer{border-top:2px solid #aaa;background-color:#fff;text-align:center;}
+.modal-footer .btn{min-width:160px;margin:0 5px}
+.modal-body{overflow-x:hidden;max-height:460px;min-height:200px;}
+#ajaxOverlayDivMaster.modal{border:none;width:300px;margin:0 auto 0 -150px;}#alertOverlay.modal{width:450px;margin:15% auto 0 -225px;}
+
+/*Modal Window Skin*/
+
+.learn.modal.fade.in{ top:0%; }
+.learn.modal{border:3px solid #ECEDEE;background:#ECEDEE;width:545px;top: 0;bottom: 0;right: 0px;left: auto; border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px; max-height:100%; }
+.learn.modal .modal-header{border-bottom:1px solid #fff;position:relative;padding:15px; background-color:#3195A9 !important;}
+.learn.modal .modal-header .close{background:url(../Images/channel_logo_generic_small.png) no-repeat scroll 2px -390px;display:block;height:25px;width:25px;margin-top:0px;opacity:1;filter:alpha(opacity=100);float:none; position:relative; top:0; right:auto;}
+.learn.modal .modal-header .close:focus,.modal-header .close:active{outline:thin dotted #999 !important;}
+.learn.modal .modal-header h3{font:21px/1.2 VerizonApexMedium,Arial,Helvetica !important;text-align:left;text-transform:capitalize; color:#ffffff; margin-top:10px;}
+.learn.modal .modal-footer{border-top:1px solid #D2D3D4;background-color:#fff;text-align:center; position: absolute;left: 0;bottom: 0;width: 100%;}
+.learn.modal .modal-footer .btn{min-width:160px;margin:0 5px}
+.learn.modal .modal-body{overflow-x:hidden; height:80% !important; max-height:none; }
+.learn.modal .modal-body .span6 { background-color:#ffffff; color:#595A5D; padding:10px; margin-bottom:10px; min-height:60px; }
+.learn.modal .modal-body .span6 p{ margin-bottom:7px;  }
+.learn.modal .modal-body .span6.more{ background-color:#F7F7F7; text-align:center; }
+.premium_channels ul { margin:0px; }
+.premium_channels ul.channelslist li{ float: left;width: 44%;list-style-type: none;background-color: #ffffff;padding: 10px;margin: 3px;}
+/*Alert modal*/
+.alert.modal { width:480px; padding:0; margin-left:-240px; height:280px; }
+.alert.modal .modal-header { border-bottom:none; text-align:left; }
+.alert.modal .modal-header h3 { text-align:left; font-family: VerizonApexMedium !important; }
+.alert.modal.fade.in { top:25%;}
+.alert.modal .modal-body{ height:auto !important; color:#333333; min-height:80px;}
+.alert.modal .modal-footer .btn {    min-width: 115px;   margin: 0 25px;   } 
+
+/* Footer */
+footer .row-fluid .span4{width:15%;margin:0;}
+footer .row-fluid .span4.nomar img{width:75%;}
+
+/* Error Messages*/
+.fielderror{border:1px solid #ED1C24 !important;}
+.error {color: #ED1C24 !important; clear: both; font-weight: bold !important; padding-top: 5px; font-size:14px;}
+
+/*Other Devices*/
+@media (max-width: 979px){
+#espanolLink{display:none;}#Signout a,#ctc a,#scart a,#faq a,#fcart a{padding:3px 10px 1px 10px;}
+#Signout a img,#ctc a img,#scart a img,#faq a img,#fcart a img{height:30px;border:none;}#ctc a img{width:123px;}#faq a img{width:139px;}#scart a img{/*width:172px;*/}#fcart a img{width:97px;}#Signout a img{width:94px;}#fcart a{position:relative;}#fcart a span{top:12px;left:46px;font:normal 17px/1.5 VerizonApexBold;}
+.navbar .brand img{width:156px;}.navbar .brand {margin-left:20px;}
+.sticky .navbar .headerIcons,.navbar .headerIcons{top:54px;right:10px;}
+.navbar-inverse .nav-collapse .nav > li > a,.navbar-inverse .nav-collapse .dropdown-menu a{border-radius:0;margin:0;border-top:1px solid #000;line-height:normal;}
+.navbar .nav-collapse .nav.pull-right{margin:0;}
+.navbar-fixed-top, .navbar-fixed-bottom,.navbar-static-top{position:relative;z-index:2;margin:0;}
+.container{width:auto !important;}
+.pBar ul li .txt, .pBar ul li .numeric{font-size:16px;line-height:50px;}.pBar ul li .txt{padding-left:2px;}.pBar ul li{width:17.5% !important}.pBarContainer,.pBar{height:50px;}
+.pBar ul.active1 li.step1,.pBar ul.active2 li.step2,.pBar ul.active3 li.step3,.pBar ul.active4 li.step4,.pBar ul.active5 li.step5{background: url(../Images/pb_arrow_tab.png) no-repeat scroll right top #FFF;height:52px;}
+.pBar ul.active1 li.step1 .txt,.pBar ul.active2 li.step2 .txt,.pBar ul.active3 li.step3 .txt,.pBar ul.active4 li.step4 .txt,.pBar ul.active5 li.step5 .txt{background-position:right 21px;}
+.modal{width:700px;margin-left:-350px;left:50%;}
+}
+
+@media (min-width: 780px){
+.bootstrap-select.btn-group .btn .filter-option{font-size:.9em;}
+.CRGrid{width:27px !important;margin-right:-10px;}
+.row-fluid.flname{width:94%;}
+.row-fluid.flname .span6 .span11,.row-fluid.email .span6 .span11{width:100%;}
+.row-fluid.telnum .span6.tel{width:60.9%;}.row-fluid.telnum .span6.type{width:35.9%;}
+.row-fluid.telnum .span6.type .span8{width:90%;}
+.row-fluid.email,.row-fluid.telnum{width:47%;float:left;}
+.row-fluid.email .span6{width:98%;}
+.row-fluid.telnum{width:48%;margin-left:10px;}
+.row-fluid.txtemail,.row-fluid.txttelnum{width:40%;float:left;padding-top:5px;}
+.row-fluid.txtemail .span3,.row-fluid.txtemail .span8,.row-fluid.txttelnum .span3,.row-fluid.txttelnum .span8{width:auto;}
+#loopQual address{margin-bottom:10px;}
+#loopQual #newService .tel.span7{width:40%;}
+#loopQual #existingService input.span5{width:26%;}
+#fnModal .modal-body,#exServModal .modal-body{max-height:550px;}
+/* Deposit Flows*/
+#depositcc .depAddress .span11 {width:100%;}
+}
+@media (max-width: 1025px){
+	.bundleCarousel .controls a.prev{left:-55px;}
+.bundleCarousel .controls a.next{right:-55px;}
+    .show-landscape { display:block !important;    }
+	}
+
+/* ie7 & 8 layout fixes*/
+.lt-ie8 #faq.fr{max-width:200px;}
+.lt-ie8 .btn-group.bootstrap-select .btn{padding:9px 8px 10px 8px;max-height:45px;}
+.lt-ie8 .btn-group.bootstrap-select .btn .filter-option,.lt-ie9 .btn-group.bootstrap-select .btn .filter-option{font-size:14px;}
+.lt-ie9 .bootstrap-select.btn-group[class*="span"],.lt-ie8 .bootstrap-select.btn-group[class*="span"]{float:left;margin-right:5px;}
+.lt-ie9 .CRGrid,.lt-ie8 .CRGrid{width:27px !important;margin-right:-10px;}
+.lt-ie9 .row-fluid.flname,.lt-ie8 .row-fluid.flname{width:94%;}
+.lt-ie9 .row-fluid.flname .span6 .span11,.lt-ie9 .row-fluid.email .span6 .span11{width:100%;}
+.lt-ie8 .row-fluid.flname .span6 .span11,.lt-ie8 .row-fluid.email .span6 .span11{width:94%;}
+.lt-ie9 .row-fluid.telnum .span6.tel,.lt-ie8 .row-fluid.telnum .span6.tel{width:60.9%;}.lt-ie9 .row-fluid.telnum .span6.type,.lt-ie8 .row-fluid.telnum .span6.type{width:35.9%;}
+.lt-ie9 .row-fluid.telnum .span6.type .span8,.lt-ie8 .row-fluid.telnum .span6.type .span8{width:90%;}
+.lt-ie9 .row-fluid.email,.lt-ie9 .row-fluid.telnum,.lt-ie8 .row-fluid.email,.lt-ie8 .row-fluid.telnum{width:47%;float:left;}
+.lt-ie9 .row-fluid.email .span6,.lt-ie8 .row-fluid.email .span6{width:98%;}
+.lt-ie9 .row-fluid.telnum,.lt-ie8 .row-fluid.telnum{width:48%;margin-left:11px;}
+.lt-ie8 #newbillDiv .row-fluid .span12{width:91%;}
+.lt-ie9 footer .row-fluid .span4.nomar img,.lt-ie8 footer .row-fluid .span4.nomar img{width:75%;}
+.lt-ie9 .row-fluid.txtemail,.lt-ie9 .row-fluid.txttelnum,.lt-ie8 .row-fluid.txtemail,.lt-ie8 .row-fluid.txttelnum{width:40%;float:left;padding-top:5px;}
+.lt-ie9 .row-fluid.txtemail .span3,.lt-ie9 .row-fluid.txtemail .span8,.lt-ie9 .row-fluid.txttelnum .span3,.lt-ie9 .row-fluid.txttelnum .span8,.lt-ie8 .row-fluid.txtemail .span3,.lt-ie8 .row-fluid.txtemail .span8,.lt-ie8 .row-fluid.txttelnum .span3,.lt-ie8 .row-fluid.txttelnum .span8{width:auto;}
+.lt-ie9 #sectionWhatsnext .row-fluid .span7,.lt-ie8 #sectionWhatsnext .row-fluid .span7{width:72.4468%;}.lt-ie9 #sectionWhatsnext .row-fluid .span5,.lt-ie8 #sectionWhatsnext .row-fluid .span5{width:25.4255%;}.lt-ie9 #sectionWhatsnext .row-fluid .span5 img,.lt-ie8 #sectionWhatsnext .row-fluid .span5 img{max-width:75%;}
+.lt-ie8 #loopQual #newService .tel.span7,.lt-ie9 #loopQual #newService .tel.span7{width:40%;}
+.lt-ie8 #loopQual #existingService input.span5,.lt-ie9 #loopQual #existingService input.span5{width:26%;}
+.lt-ie8 #loopQual .LQ .addressDiv .span6 .span12{width:92%;}
+.lt-ie8 #loopQual .accordion-group .accordion-toggle,.lt-ie8 #loopQual .accordion-group .accordion-toggle:hover,.lt-ie9 #loopQual .accordion-group .accordion-toggle,.lt-ie9 #loopQual .accordion-group .accordion-toggle:hover{padding:18px 10px;}
+.lt-ie8 #loopQual address,.lt-ie9 #loopQual address{margin-bottom:10px;}
+.lt-ie8 .byob .productBox .prodDesc .row-fluid .span8{width:60%;}
+.lt-ie8 .byobHeaderBox .byob_banner{margin-top:25px;}
+.lt-ie8 .sectionVasipTab .nav-tabs > li a{text-align:left;}
+.lt-ie8 #FastPass .span4.chatQA{width:31%;}
+.lt-ie8 #FastPass .headerDiv h3.fp span sup{top:-1em;vertical-align:auto;}
+.lt-ie8 #FastPass .retrieveOrder input.span12{width:94%;}
+.lt-ie8 #fnModal .modal-body,.lt-ie9 #fnModal .modal-body,.lt-ie8 #exServModal .modal-body,.lt-ie9 #exServModal .modal-body{max-height:550px;}
+.lt-ie8 #futureNotify .row-fluid input.span12{width:90%;}
+.lt-ie8 .tab-content{overflow:hidden;}
+.lt-ie8 .btnChangelink span{margin-top:4px;}
+.lt-ie8 #sectionOrdersummary .accordion-heading .changeLink{top:10px;}
+.lt-ie8 .doProduct .span6{width:48.5%;}.lt-ie8 .dopriceCTA table td{text-align:left;}.lt-ie8 .dopriceBlock{width:216px;}.lt-ie8 .doselectCTA{width:200px;margin-left:15px;}
+.lt-ie8 #dataspeedModal,.lt-ie9 #dataspeedModal{width:800px;margin-left:-400px;}
+.lt-ie8 #tosModal .modal-body,.lt-ie9 #tosModal .modal-body{max-height:400px !important;}
+/*DO pages*/
+.lt-ie9 .spl_offer .cc,.lt-ie8 .spl_offer .cc{width:5%;padding-left:150px;}
+.lt-ie9 .spl_offer .plus,.lt-ie8 .spl_offer .plus{width:2.5%; padding-left:8px;}
+.lt-ie9 .spl_offer .setopbox,.lt-ie8 .spl_offer .setopbox{width:15%;padding-left:8px;margin-right:14px;}
+.lt-ie8 #standalone_availability .span6{width:46.2%;}
+.lt-ie8 .newsticker_titlesup {font-size:0.667em;}
+.lt-ie8 .addressbar {zoom:1;}
+.lt-ie8 #standalone_availability{overflow-x:hidden;}
+.lt-ie8 #doubleplay_overlay{min-height:510px;}
+.lt-ie8 #standalone_chkavail{min-height:530px;}
+.lt-ie8 #chkavl_overlay .row-fluid .span4{width:31.335%;}
+.lt-ie8 #tripleplay_wcontract,.lt-ie8 #tripleplay_wcontract iframe{min-height:680px;}
+.lt-ie8 #tripleplay_wocontract,.lt-ie8 #tripleplay_wocontract iframe{min-height:520px;}
+.lt-ie8 #doubleplay .span6{width:45.289%;}
+.lt-ie8 #doubleplay .span6 .span12 .span6,.lt-ie8 #tripleplay .span6 .span12 .span6{width:40%;}
+.lt-ie8 #tripleplay .span12 .span6{text-align:center;margin:0;position:relative;}.lt-ie8 #tripleplay .span12 .span6 .dopad{padding:12px;}
+.lt-ie8 #tripleplay .span12 .span6 .product_img{max-width:60%;margin-bottom:5px;margin:0 auto;}
+.lt-ie8 #tripleplay .span12 .span6 .prodicon_plus{position:absolute;top:20%;left:90%;}
+.lt-ie8 #bundle_details .span12 .span4 .prodicon_plus{width:25%;}
+.lt-ie8 .dplaybundle_details_section,.lt-ie9 .dplaybundle_details_section{margin-bottom:28px}
+.lt-ie8 .tplaybundle_details_section,.lt-ie9 .tplaybundle_details_section{margin-bottom:22px}
+.lt-ie8 .bundle_details_section .bundle_img{padding-top:10px;}.lt-ie9 .bundle_details_section .bundle_img{padding-top:12px;}
+.lt-ie8 .bundle_details_section .bundle_price,.lt-ie9 .bundle_details_section .bundle_price{padding:32px 10px 10px 30px }
+.lt-ie8 .tplaybundle_details_section .bundle_img{padding-top:8px}.lt-ie9 .tplaybundle_details_section .bundle_img{padding-top:7px}
+.lt-ie8 .tplaybundle_details_section .bundle_price,.lt-ie9 .tplaybundle_details_section .bundle_price{padding:46px 10px 34px 28px}
+.lt-ie8 .tplaybundlewo_details_section,.lt-ie9 .tplaybundlewo_details_section{margin-bottom:10px}
+.lt-ie8 .tplaybundlewo_details_section .bundle_img,.lt-ie9 .tplaybundlewo_details_section .bundle_img{padding-top:2px;}
+.lt-ie8 .tplaybundlewo_details_section .bundle_price,.lt-ie9 .tplaybundlewo_details_section .bundle_price{padding:24px 10px 20px 28px}
+.lt-ie8 #tripleplay .span6 {width:46.5%;}
+.lt-ie9 #tripleplay .span6{width:48.889%;}
+.lt-ie8 .products_list .span4 img, .lt-ie9 .products_list .span4 img{width:50%;}
+.lt-ie8 .webovrly, .lt-ie9 .webovrly{width:570px;margin-left:-280px !important;}
+.lt-ie8 .sub_price_wrap{margin-top:10px;}
+.lt-ie8 .promo_txt, .lt-ie9 .promo_txt{font-size:0.857em;}
+.lt-ie8 .rate .price.strikeout img {left:5px; width:45%;}
+.lt-ie8 #sectionLOA .tel .span3{width:30px;}.lt-ie8 #sectionLOA .tel .span4{width:50px;}
+.lt-ie8 #ajaxOverlayDivMaster .modal-body, .lt-ie8 #ajaxOverlayDivMaster .row-fluid, .lt-ie8 #ajaxOverlayDivMaster .span4{ overflow:hidden !important;}
+.lt-ie9 .navbar .brand img,.lt-ie9 .sticky .navbar .brand img,.lt-ie9 #ctc a img,.lt-ie9 #scart a img,.lt-ie9 #faq a img,.lt-ie9 #fcart a img,.lt-ie9 #Signout a img{max-width:none;}
+.hiddenImp{display:none !important;}
+.tileCntr{margin-top:60%;float:right;}
+
+/* Checkout Pages*/
+.lt-ie9 #checkoutsptone .row-fluid.telnum{width:48%}
+.lt-ie8 #checkoutsptone .ssnfname{}
+.lt-ie8 #checkoutsptone .ssnminame{ padding-left:10px;}
+.lt-ie8 #checkoutsptone .ssnlstname{padding-left:10px;}
+.lt-ie8 #checkoutsptone .ssncorptaxid {margin-left:20px; padding-left:20px; width:25%}
+.lt-ie8 #checkoutsptone .billattn .span6 .span11 {width:86%;}
+.lt-ie8 #secorderconfirmation .accordion-group .accordion-inner {padding-right:10px;}
+
+/* DO LQ Overlays */
+.lt-ie9 .smblqresults .avbleservice .serviceavble .bundle_img img {float:right !important;}
+.lt-ie9 .smblqresults .avbleservice .serviceavble .bundle_img {text-align:right !important;}
+.lt-ie9 .smbupsell_wrap {background-color:#d2d3d4;}
+.lt-ie9 .smblqresults ul.list {margin:0; padding:0;}
+.lt-ie9 .smblqresults ul.list li {list-style-type:none; margin-bottom:5px;}
+.lt-ie9 .smblqresults ul.list li a{font-weight:bold;}
+.lt-ie9 .smblqresults .bonus_wrap {width:150px; margin-left:15px;}
+.lt-ie9 .smblqresults > div {margin-top:20px;}
+.lt-ie9 .otheravbleservices {margin-right:20px !important;}
+.lt-ie9 .smblqresults {margin-bottom:20px;}
+
+.lt-ie9 .smbbunlelqresults ul.list {margin:0; padding:0;}
+.lt-ie9 .smbbunlelqresults ul.list li {list-style-type:none; margin-bottom:5px;}
+.lt-ie9 .smbbunlelqresults ul.list li a{font-weight:bold;}
+.lt-ie9 .smbbundleupsell_wrap {background: #d2d3d4;}
+.lt-ie9 .smbbundleupsell_wrap .upselrightcol {border-left:1px solid #f2f2f2; margin-left:15px; padding-left:20px; width:35%;}
+.lt-ie9 .smbbundleupsell_wrap .bonus_wrap {width:140px; margin-left:15px; }
+.lt-ie9 .smbbundleupsell_wrap .upselleftcol{width:60%;}
+
+
+.lt-ie8 .smblqresults .avbleservice .serviceavble .bundle_img img {float:right !important;}
+.lt-ie8 .smblqresults .avbleservice .serviceavble .bundle_img {text-align:right !important;}
+.lt-ie8 .smbupsell_wrap {background-color:#d2d3d4;}
+.lt-ie8 .smblqresults ul.list {margin:0; padding:0;}
+.lt-ie8 .smblqresults ul.list li {list-style-type:none; margin-bottom:5px;}
+.lt-ie8 .smblqresults ul.list li a{font-weight:bold;}
+.lt-ie8 .smblqresults .bonus_wrap {width:150px; margin-left:15px;}
+.lt-ie8 .smblqresults > div {margin-top:20px;}
+.lt-ie8 .otheravbleservices {margin-right:20px !important;}
+.lt-ie8 .smblqresults {margin-bottom:20px;}
+
+.lt-ie8 .smbbunlelqresults ul.list {margin:0; padding:0;}
+.lt-ie8 .smbbunlelqresults ul.list li {list-style-type:none; margin-bottom:5px;}
+.lt-ie8 .smbbunlelqresults ul.list li a{font-weight:bold;}
+.lt-ie8 .smbbundleupsell_wrap {background: #d2d3d4;}
+.lt-ie8 .smbbundleupsell_wrap .upselrightcol {border-left:1px solid #ccc; margin-left:15px; padding-left:20px; width:30%;}
+.lt-ie8 .smbbundleupsell_wrap .bonus_wrap {width:140px; margin-left:15px; }
+.lt-ie8 .smbbundleupsell_wrap .upselleftcol{width:60%;}
